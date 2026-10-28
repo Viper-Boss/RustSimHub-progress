@@ -14,9 +14,9 @@
     "src/dashboard.css": "f70a0e0b89ee7826aa43e6b052573b4ad21bc40ce32338bf5d39854d65ab4179",
     "src/team.css": "aa2d8cede28e48a366eb977dc508c8fbc2f215d8b924b820115387cee7861b8a",
     "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-    ".gitattributes": "ba3d4e0a92188305f7cb5ff36e521d8e5df81a0cf5bc64028d9c86834e5096c0",
+    ".gitattributes": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "README.md": "7954de5ffe34153e4012700f33b81e66e20e619bcde3211e33018ac3c800eaec",
-    "build.py": "c87e2155577fb6ddb250c5f9238332ecc6faf27fa724a6f031aa7ccaeef12104"
+    "README.md": "11309f04aed7cb3323d11cc979e27118fc4d23c1c52ec22dd4d35580bd106dd2",
+    "build.py": "08eaaee07d882d16ddb7a3470dfcdba857dc71e076d1f6692901c7d0e966819e"
   }
 }
