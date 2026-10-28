@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "source_head": "bcefada0d3c04d7a8523a71859d8f2b3441b0d95",
+  "source_pr": "https://github.com/Viper-Boss/RustSimHub/pull/58",
+  "statistics_head": "dfd11e9e75d7b532de5fcaeacbdb9fcd87e33215",
+  "snapshot_updated_at": "2026-10-28T17:08:36.814525+00:00",
+  "exported_at": "2026-10-28T17:24:06.554064+00:00",
+  "files": {
+    "index.html": "f58a5ebdb50968138bf5e037a110911bc2781e38adeccfe3e55a87ad7d8573a4",
+    "progress.json": "c3c1c7b57ad868db7a4cd00e806cb49647d3112a4c10b0b9be50698eef28cb8f",
+    "remaining.md": "c357db97e0d4f1f51a726e332fdccc3eb2981e2d925e40a59a5ffdb16b0a221a",
+    "src/index.template.html": "27aa86dff319872022bd1c257d1e8ad9bcba17a3d3a641c824bf6572d2b22b27",
+    "src/dashboard.mjs": "077d638c4a083c4b288ddee6d3ff71607c0ffd052ccf39fd1856bd95e5ed0d88",
+    "src/dashboard.css": "f70a0e0b89ee7826aa43e6b052573b4ad21bc40ce32338bf5d39854d65ab4179",
+    "src/team.css": "aa2d8cede28e48a366eb977dc508c8fbc2f215d8b924b820115387cee7861b8a",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    ".gitattributes": "ba3d4e0a92188305f7cb5ff36e521d8e5df81a0cf5bc64028d9c86834e5096c0",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "README.md": "7954de5ffe34153e4012700f33b81e66e20e619bcde3211e33018ac3c800eaec",
+    "build.py": "c87e2155577fb6ddb250c5f9238332ecc6faf27fa724a6f031aa7ccaeef12104"
+  }
+}
