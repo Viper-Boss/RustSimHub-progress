@@ -1,22 +1,22 @@
 {
   "schema": 1,
-  "source_head": "bcefada0d3c04d7a8523a71859d8f2b3441b0d95",
-  "source_pr": "https://github.com/Viper-Boss/RustSimHub/pull/58",
+  "source_head": "60af31a2f166e920eaf7858796fe9fae15eca73f",
+  "source_pr": "https://github.com/Viper-Boss/RustSimHub/pull/59",
   "statistics_head": "dfd11e9e75d7b532de5fcaeacbdb9fcd87e33215",
-  "snapshot_updated_at": "2026-10-28T17:08:36.814525+00:00",
-  "exported_at": "2026-10-28T17:24:06.554064+00:00",
+  "snapshot_updated_at": "2026-10-28T17:40:28.245099+00:00",
+  "exported_at": "2026-10-28T17:43:39.914178+00:00",
   "files": {
-    "index.html": "f58a5ebdb50968138bf5e037a110911bc2781e38adeccfe3e55a87ad7d8573a4",
-    "progress.json": "c3c1c7b57ad868db7a4cd00e806cb49647d3112a4c10b0b9be50698eef28cb8f",
-    "remaining.md": "c357db97e0d4f1f51a726e332fdccc3eb2981e2d925e40a59a5ffdb16b0a221a",
-    "src/index.template.html": "27aa86dff319872022bd1c257d1e8ad9bcba17a3d3a641c824bf6572d2b22b27",
-    "src/dashboard.mjs": "077d638c4a083c4b288ddee6d3ff71607c0ffd052ccf39fd1856bd95e5ed0d88",
-    "src/dashboard.css": "f70a0e0b89ee7826aa43e6b052573b4ad21bc40ce32338bf5d39854d65ab4179",
-    "src/team.css": "aa2d8cede28e48a366eb977dc508c8fbc2f215d8b924b820115387cee7861b8a",
-    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
     ".gitattributes": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "README.md": "11309f04aed7cb3323d11cc979e27118fc4d23c1c52ec22dd4d35580bd106dd2",
-    "build.py": "08eaaee07d882d16ddb7a3470dfcdba857dc71e076d1f6692901c7d0e966819e"
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "78498c3afdfec9128c36e814cf64a9f7c707df930e2f02cfe9f127462ca29d9c",
+    "build.py": "08eaaee07d882d16ddb7a3470dfcdba857dc71e076d1f6692901c7d0e966819e",
+    "index.html": "0cf608d252fc6257dd2be66049de6e0276f989723aab14acf7e659bb46e17d9c",
+    "progress.json": "f4f6c26c1c837ccaba5ec37d97ed3cdf233987d34a71757000069293d98ea96f",
+    "remaining.md": "b3b00246fc51e9aef7ec51ad44e024ff673e355d51ae869a2aa6359c458faeec",
+    "src/dashboard.css": "f70a0e0b89ee7826aa43e6b052573b4ad21bc40ce32338bf5d39854d65ab4179",
+    "src/dashboard.mjs": "077d638c4a083c4b288ddee6d3ff71607c0ffd052ccf39fd1856bd95e5ed0d88",
+    "src/index.template.html": "27aa86dff319872022bd1c257d1e8ad9bcba17a3d3a641c824bf6572d2b22b27",
+    "src/team.css": "aa2d8cede28e48a366eb977dc508c8fbc2f215d8b924b820115387cee7861b8a"
   }
 }
