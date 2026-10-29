@@ -1,22 +1,22 @@
 {
   "schema": 1,
-  "source_head": "d83ddd7e3fb371db18250068dfcc2ff7f29e6d00",
+  "source_head": "fe7bfedd0643c40be3f7750183a765ceff5a30c6",
   "source_pr": "https://github.com/Viper-Boss/RustSimHub/pull/66",
   "statistics_head": "677ba57eaebaae9aede4968e32758a754b9703fa",
-  "snapshot_updated_at": "2026-10-29T19:19:17.348846+00:00",
-  "exported_at": "2026-10-29T19:20:17.086573+00:00",
+  "snapshot_updated_at": "2026-10-29T19:22:19.830838+00:00",
+  "exported_at": "2026-10-29T19:24:09.016900+00:00",
   "files": {
     ".gitattributes": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-    "README.md": "3673bb110cc20d2569e404a01db1202f544ccc1d362eec0927663cf4593f75be",
+    "README.md": "55288c4629f55e6d85e57804d961ac22aac0947fa09447547835a1babf89f361",
     "build.py": "08eaaee07d882d16ddb7a3470dfcdba857dc71e076d1f6692901c7d0e966819e",
-    "index.html": "1dcd5f6746561b8ff6a9260174ddacce889cb2854aca2a63a78d7332ad104530",
-    "progress.json": "3c3c6bc4b47dac28b582e90f4e93815f9634bd5e10496747983cbab2a903202e",
+    "index.html": "5c0da0e20528fbb822ee7ae861b15b00f499eab2f699734b521920081be6da2d",
+    "progress.json": "48e989992465b5d481772440b71ba8e6841100fcaa42beea8c5fa105bd7efddc",
     "remaining.md": "cf3565685a0f74a0e006666ffb994e9a24c046df5c5795304765eb2fc45d3f3d",
     "src/dashboard.css": "f70a0e0b89ee7826aa43e6b052573b4ad21bc40ce32338bf5d39854d65ab4179",
-    "src/dashboard.mjs": "077d638c4a083c4b288ddee6d3ff71607c0ffd052ccf39fd1856bd95e5ed0d88",
-    "src/index.template.html": "27aa86dff319872022bd1c257d1e8ad9bcba17a3d3a641c824bf6572d2b22b27",
+    "src/dashboard.mjs": "83d426dacdfdfc4b628d56670763c547af55aef75df262a6aa9da739d55f0258",
+    "src/index.template.html": "b77c01393bc703def8a474bafbf1efa17aab2f29a178250f9bbdfbee5b830d68",
     "src/team.css": "aa2d8cede28e48a366eb977dc508c8fbc2f215d8b924b820115387cee7861b8a"
   }
 }
