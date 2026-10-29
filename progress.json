@@ -5866,8 +5866,8 @@
       },
       {
         "id": "member-b",
-        "name": "wnfhsj",
-        "login": "wnfhsj",
+        "name": "wnfhsj88",
+        "login": "wnfhsj88",
         "role": "月流量计量 / 网络显示 · 离线边界",
         "access": "同仓库Write已生效；本人功能分支 → PR审核",
         "package": "网络/全部网页/PWA/测试工具与性能报告",
@@ -7715,6 +7715,7 @@
           ]
         }
       ]
-    }
+    },
+    "pr_method": "按成员已收录PR编号去重，每个PR计1次；OPEN/MERGED/CLOSED均计入。数据尚未完成最新远程同步。"
   }
 }

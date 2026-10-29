@@ -9,14 +9,18 @@
     ".gitattributes": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-    "README.md": "344fbcd29d9e09af6988fee94fda93b6b8d7ddeaa7f815ec03bdfb52e5150299",
+    "README.md": "cc29b97cf6d56beb0123ae0f3bcae27430ff56a48ba3a9f0559f2d2606cc253c",
     "build.py": "08eaaee07d882d16ddb7a3470dfcdba857dc71e076d1f6692901c7d0e966819e",
-    "index.html": "118f7dee14d05eae81fe1a706e8bef4d4114e70857d9bd244547c4face8a09cc",
-    "progress.json": "055294a574c70862ff4cba28bbe22021d9e3465b1c53962a08f5cf47ae9d435b",
+    "index.html": "4aa238592a8bb5e51d482a9f8c6d0b400db3de1c35c6fd01555a5564fb741369",
+    "progress.json": "c21c9b4678930a48b1e6d93c8d50401a987de21f001379bddb5d7ed54ac6e365",
     "remaining.md": "b5340ba5e6a423cc43d47357c0a21d2a602697ff1af49c1eabbfcae3668cf373",
     "src/dashboard.css": "f70a0e0b89ee7826aa43e6b052573b4ad21bc40ce32338bf5d39854d65ab4179",
-    "src/dashboard.mjs": "077d638c4a083c4b288ddee6d3ff71607c0ffd052ccf39fd1856bd95e5ed0d88",
-    "src/index.template.html": "27aa86dff319872022bd1c257d1e8ad9bcba17a3d3a641c824bf6572d2b22b27",
+    "src/dashboard.mjs": "9a3c024c34bb1c118dabeb587f96772c6012a8952e7edc7e577ea8d6f2d5972a",
+    "src/index.template.html": "b77c01393bc703def8a474bafbf1efa17aab2f29a178250f9bbdfbee5b830d68",
     "src/team.css": "aa2d8cede28e48a366eb977dc508c8fbc2f215d8b924b820115387cee7861b8a"
+  },
+  "viewer_update": {
+    "description": "PR提交量展示；账号wnfhsj88；历史PR数据时间保留，最新远程同步待完成",
+    "product_acceptance_changed": false
   }
 }
