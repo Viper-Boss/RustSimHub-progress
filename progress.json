@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-10-30T07:25:54.773931+00:00",
+  "updated_at": "2026-10-30T09:03:51.626315+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -5822,10 +5822,68 @@
         "id": "member-a",
         "name": "fungi1220",
         "login": "fungi1220",
-        "role": "NKN活跃安装统计 · 离线Rust组件",
+        "role": "历史成员A · 当前无分配任务",
         "access": "同仓库Write邀请已确认，待本人接受；本人功能分支 → PR审核",
-        "package": "NKN/安全会话/权限审计/邮件离线实现",
+        "package": "用户已将A-01～30转交wnfhsj88；历史提交和审核保留",
+        "task_ids": [],
+        "step_ids": [],
+        "handoff": "docs/team/MEMBER-A-USAGE-STATS.md",
+        "state": "submitted",
+        "estimate_hours": null,
+        "stats": {
+          "current_lines": {
+            "product": 0,
+            "tests": 0,
+            "tooling": 0,
+            "firmware": 0
+          },
+          "commits": 0,
+          "code_commits": 0,
+          "added": 0,
+          "deleted": 0
+        },
+        "work": {
+          "assigned_steps": 0,
+          "accepted_steps": 0,
+          "self_reported_hours": null,
+          "reviews": [],
+          "deliveries": [
+            {
+              "pr": 41,
+              "head": "295c47655af1d69d2eb0568eda09023c4599c16b",
+              "state": "OPEN"
+            }
+          ]
+        }
+      },
+      {
+        "id": "member-b",
+        "name": "wnfhsj88",
+        "login": "wnfhsj88",
+        "role": "网络/网页/PWA及接手的统计/NKN/安全/邮件离线实现",
+        "access": "Write已生效（2026-10-29回读）；本人功能分支 → PR审核",
+        "package": "B-01～32及用户转交的A-01～30；共62步，原验收边界保持",
         "task_ids": [
+          "NET-01",
+          "NET-02",
+          "NET-03",
+          "WEB-01",
+          "WEB-05",
+          "STAB-01",
+          "WEB-02",
+          "WEB-06",
+          "BLE4-01",
+          "BLE4-02",
+          "BLE4-03",
+          "BLE4-04",
+          "AP-12",
+          "REMOTE-07",
+          "STAB-06",
+          "BLE5-01",
+          "BLE5-03",
+          "WEB-03",
+          "WEB-07",
+          "STAT-09",
           "STAT-01",
           "STAT-02",
           "STAT-03",
@@ -5854,99 +5912,6 @@
           "SEC-03",
           "SEC-07",
           "FWD-09"
-        ],
-        "step_ids": [
-          "A-01",
-          "A-02",
-          "A-03",
-          "A-04",
-          "A-05",
-          "A-06",
-          "A-07",
-          "A-08",
-          "A-09",
-          "A-10",
-          "A-11",
-          "A-12",
-          "A-13",
-          "A-14",
-          "A-15",
-          "A-16",
-          "A-17",
-          "A-18",
-          "A-19",
-          "A-20",
-          "A-21",
-          "A-22",
-          "A-23",
-          "A-24",
-          "A-25",
-          "A-26",
-          "A-27",
-          "A-28",
-          "A-29",
-          "A-30"
-        ],
-        "handoff": "docs/team/MEMBER-A-USAGE-STATS.md",
-        "state": "assigned",
-        "estimate_hours": [
-          39,
-          88
-        ],
-        "stats": {
-          "current_lines": {
-            "product": 0,
-            "tests": 0,
-            "tooling": 0,
-            "firmware": 0
-          },
-          "commits": 0,
-          "code_commits": 0,
-          "added": 0,
-          "deleted": 0
-        },
-        "work": {
-          "assigned_steps": 30,
-          "accepted_steps": 0,
-          "self_reported_hours": null,
-          "reviews": [],
-          "deliveries": [
-            {
-              "pr": 41,
-              "head": "295c47655af1d69d2eb0568eda09023c4599c16b",
-              "state": "OPEN"
-            }
-          ]
-        }
-      },
-      {
-        "id": "member-b",
-        "name": "wnfhsj88",
-        "login": "wnfhsj88",
-        "role": "月流量计量 / 网络显示 · 离线边界",
-        "access": "Write已生效（2026-10-29回读）；本人功能分支 → PR审核",
-        "package": "网络/全部网页/PWA/测试工具与性能报告",
-        "task_ids": [
-          "NET-01",
-          "NET-02",
-          "NET-03",
-          "WEB-01",
-          "WEB-05",
-          "STAB-01",
-          "WEB-02",
-          "WEB-06",
-          "BLE4-01",
-          "BLE4-02",
-          "BLE4-03",
-          "BLE4-04",
-          "AP-12",
-          "REMOTE-07",
-          "STAB-06",
-          "BLE5-01",
-          "BLE5-03",
-          "WEB-03",
-          "WEB-07",
-          "STAT-09"
         ],
         "step_ids": [
           "B-01",
@@ -5980,13 +5945,43 @@
           "B-29",
           "B-30",
           "B-31",
-          "B-32"
+          "B-32",
+          "A-01",
+          "A-02",
+          "A-03",
+          "A-04",
+          "A-05",
+          "A-06",
+          "A-07",
+          "A-08",
+          "A-09",
+          "A-10",
+          "A-11",
+          "A-12",
+          "A-13",
+          "A-14",
+          "A-15",
+          "A-16",
+          "A-17",
+          "A-18",
+          "A-19",
+          "A-20",
+          "A-21",
+          "A-22",
+          "A-23",
+          "A-24",
+          "A-25",
+          "A-26",
+          "A-27",
+          "A-28",
+          "A-29",
+          "A-30"
         ],
         "handoff": "docs/team/MEMBER-B-NETWORK-ACCOUNTING.md",
         "state": "assigned",
         "estimate_hours": [
-          28,
-          63
+          67,
+          151
         ],
         "stats": {
           "current_lines": {
@@ -6001,7 +5996,7 @@
           "deleted": 0
         },
         "work": {
-          "assigned_steps": 32,
+          "assigned_steps": 62,
           "accepted_steps": 0,
           "self_reported_hours": null,
           "reviews": [],
@@ -6687,373 +6682,7 @@
         },
         {
           "member_id": "member-a",
-          "steps": [
-            {
-              "id": "A-01",
-              "title": "对应STAT-01：固定类型与协议",
-              "work": "1. 阅读固定上游，给出逐文件来源表和与RustSimHub不同的策略。\n2. 定义有限Window枚举、专用主题、协议版本、过期/续订参数和时间来源。产品主题不得混用nknguard/NasSimHub。\n3. 定义 `EnabledPolicy`、查询/签到结果和错误分类；配置缺失默认OFF。\n4. 为未知版本、错主题、超大输入、无效窗口/周期及多余字段补真实解析测试。\n5. 写协议说明：公开字段、假名化关联性、计数不是精确人数、离线和过期如何显示。",
-              "acceptance": "",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 35,
-              "batch": "第一批PR：契约和纯组件（A-01～A-04）",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-02",
-              "title": "对应STAT-02：独立身份与持久格式",
-              "work": "1. 独立生成/注入统计身份，不能读取或复用Owner、SIM、短信、通信主密钥；域分离常量写清楚。\n2. 公开DTO只含统计公钥及必要协议字段，不导出种子。若本批仅提供存储接口，应给实际文件后端或明确将真实后端作为后续缺口，不以进程内map声称跨重启可用。\n3. 保存版本、周期/窗口、待确认交易摘要、最近成功信息及禁用代次；使用有界解析与原子持久化。损坏文件保留并报错，不自动生成新身份掩盖损坏。\n4. 在临时目录检验重开、写入失败、短文件、错误权限/链接（Linux条件测试）、错误版本；不同身份/产品域互不采纳。",
-              "acceptance": "",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 43,
-              "batch": "第一批PR：契约和纯组件（A-01～A-04）",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-03",
-              "title": "对应STAT-04：有限查询与缓存",
-              "work": "1. 定义可注入的只读查询transport，结果类型区分成功0、失败未知、可用旧缓存。\n2. 三窗口缓存分别保存值、来源/成功时间/有效期；重启后时间回拨不能把旧结果变成新结果。\n3. 输入计数有界并检查整数溢出、畸形JSON、重复字段/页面、过大结果和过期；不信任RPC返回的任意URL或命令。\n4. 用实际组件配合内存transport/本地合成响应测试离线、超时、部分窗口失败、真实0以及缓存过期；不要连接公网RPC。",
-              "acceptance": "",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 50,
-              "batch": "第一批PR：契约和纯组件（A-01～A-04）",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-04",
-              "title": "对应STAT-05：默认OFF与隐私契约",
-              "work": "1. 定义明确的所有者同意输入与公开披露摘要；没有同意不得产生签到意图。不能用无条件 `AlwaysEnabled`。\n2. 公开字段只限统计公钥、产品主题、必要窗口/时间信息；不包含手机号、短信、IMEI/IMSI/ICCID、联系人、SSID、个人流量或设备主身份。\n3. OFF查询不得创建密钥、队列、定时任务；独立统计开关不改变转发、VPN或普通蜂窝数据状态。\n4. 用计数transport断言OFF时网络调用为0；日志/序列化结果不泄漏种子或受限输入。\n5. 提交第一批PR，列出真实传输/主线IPC仍未实现，等待类型契约审核。不得自行将STAT台账标完成。",
-              "acceptance": "",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 57,
-              "batch": "第一批PR：契约和纯组件（A-01～A-04）",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-05",
-              "title": "对应STAT-03：有限签到和确认",
-              "work": "1. 定义实际状态转换：Disabled、Due、Prepared/Pending、Confirmed、Failed、Unknown；提交成功不等于链上确认。\n2. 先持久意图再允许transport提交，提交结果不明保留原摘要，重开只查询；不得通过生成新交易绕过防重。\n3. 明确提交、确认、退避和过期预算，时间源可注入；时间回拨不无限签到。\n4. transport同时支持提交/查询明确分离，公开方法不接受任意shell、目标URL或外部密钥路径。\n5. 用真实状态机合成transport验证确认成功、拒绝、超时、lost reply、确认前退出和重启。真实SDK适配尚缺时明确报缺口，不返回固定成功。",
-              "acceptance": "",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 69,
-              "batch": "第二批PR：确认状态机与失败矩阵（A-05～A-08）",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-06",
-              "title": "对应STAT-06：取消和资源所有权",
-              "work": "1. 禁用递增代次，取消旧代次任务，迟到回复不能继续产生新的签到。\n2. 共享NKN引擎的释放由显式引用/所有者接口决定，不关闭其他功能的会话。\n3. 若本批没有独立服务进程，只证明库的调用/任务边界；不宣称关闭后设备无PID。\n4. 说明历史链上订阅可能到期前仍存在，不能把本地删除状态当作链上撤回。",
-              "acceptance": "",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 77,
-              "batch": "第二批PR：确认状态机与失败矩阵（A-05～A-08）",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-07",
-              "title": "对应STAT-07：失败和重启矩阵",
-              "work": "1. 全窗口覆盖：错主题、错身份、重复/恶意响应、离线、确认失败、缓存失效。\n2. 持久化覆盖：写满/权限、保存前后中断、重开、损坏保留与幂等。\n3. 并发覆盖：重复开启、提交中禁用、禁用后迟到成功、查询和报告并发。\n4. 每项断言真实生产模块，禁止复制一个“测试专用实现”来代替它。",
-              "acceptance": "",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 84,
-              "batch": "第二批PR：确认状态机与失败矩阵（A-05～A-08）",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-08",
-              "title": "交付",
-              "work": "1. 执行 `cargo fmt --all -- --check`、`cargo test -p rustsimhub-usage-stats --locked`、该包all-targets严格Clippy及生产特性检查。\n2. 可运行时再执行workspace回归；平台/依赖无法运行的检查标“未运行”，不要声称全绿。\n3. 报告实际SHA、命令/结果、来源许可、状态机图、默认OFF的调用计数证据和剩余接口。\n4. 附一段直接给主线Codex的集成说明：需要哪些Core命令/数据目录/管理字段、默认设置、真实SDK缺口。",
-              "acceptance": "",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 91,
-              "batch": "第二批PR：确认状态机与失败矩阵（A-05～A-08）",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-09",
-              "title": "核对固定nknguard提交c32952d7586676fec10f71a30b22969cb24881f3，逐文件区分NKN/DHT/成员/VPN/统计、Android/NAS依赖及原许可",
-              "work": "核对固定nknguard提交c32952d7586676fec10f71a30b22969cb24881f3，逐文件区分NKN/DHT/成员/VPN/统计、Android/NAS依赖及原许可；限定棒子需要的功能",
-              "acceptance": "来源、版本和真实语言清楚；不声称现有Go引擎已Rust重写",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 112,
-              "batch": "第三批PR：A-09～12 / NKN-01与SEC-05离线盘点",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-10",
-              "title": "设计有限本地引擎输入/输出、帧大小、取消/超时和错误类型",
-              "work": "设计有限本地引擎输入/输出、帧大小、取消/超时和错误类型；与usage-stats接口隔离，不用Owner或SIM身份充当统计身份",
-              "acceptance": "可审查契约及解析正反例，不接受任意shell、设备路径、路由或URL执行指令；协议未获审不实现主线IPC",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 113,
-              "batch": "第三批PR：A-09～12 / NKN-01与SEC-05离线盘点",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-11",
-              "title": "盘点Cargo.lock、现有Go桥/新增Go锁定依赖、Native Opus与ALSA及实际复用来源",
-              "work": "盘点Cargo.lock、现有Go桥/新增Go锁定依赖、Native Opus与ALSA及实际复用来源；提供可重跑的依赖/许可证清单生成器",
-              "acceptance": "区分直接/间接/系统依赖，保留版本/校验和/许可证/来源，未知许可或通告不能填“通过”；不批量升级或换许可证",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 114,
-              "batch": "第三批PR：A-09～12 / NKN-01与SEC-05离线盘点",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-12",
-              "title": "提交第三批小PR，提供支持/不支持矩阵、无设备模拟协议测试、依赖清单和主线接入提案",
-              "work": "提交第三批小PR，提供支持/不支持矩阵、无设备模拟协议测试、依赖清单和主线接入提案",
-              "acceptance": "主线审核最小引擎边界后才开展下一批；未连接真实NKN/RPC或发交易",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 115,
-              "batch": "第三批PR：A-09～12 / NKN-01与SEC-05离线盘点",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-13",
-              "title": "按已审契约提取/构建最小独立Go引擎，锁定Go版本和模块校验",
-              "work": "按已审契约提取/构建最小独立Go引擎，锁定Go版本和模块校验；去掉NAS/Android启动耦合，提供明确的本地stdio入口",
-              "acceptance": "可运行的实际引擎代码，不能只返回固定成功；网络功能默认不启动，真实NKN适配未实现就明确拒绝/说明",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 121,
-              "batch": "第四批PR：A-13～16 / NKN-02与SEC-05构建交付",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-14",
-              "title": "构建Linux native与ARM64，记录精确源码、工具链、依赖摘要、ELF架构和构建信息",
-              "work": "构建Linux native与ARM64，记录精确源码、工具链、依赖摘要、ELF架构和构建信息；能复现时比较两次独立构建",
-              "acceptance": "ARM64交叉编译不等于设备运行；不能复用私有密钥、发布生产签名或安装制品",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 122,
-              "batch": "第四批PR：A-13～16 / NKN-02与SEC-05构建交付",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-15",
-              "title": "使用真实程序测试有限帧、截断/未知字段、错误配置、EOF、取消和退出",
-              "work": "使用真实程序测试有限帧、截断/未知字段、错误配置、EOF、取消和退出；检查构建元数据/日志/清单没有种子或上游示例密钥",
-              "acceptance": "只用合成输入与本地模拟transport；没有真实适配不能用模拟成功冒充公网能力",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 123,
-              "batch": "第四批PR：A-13～16 / NKN-02与SEC-05构建交付",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-16",
-              "title": "提交第四批PR，提供构建脚本、校验清单、来源许可、失败/未运行项和需要主线实现的接口",
-              "work": "提交第四批PR，提供构建脚本、校验清单、来源许可、失败/未运行项和需要主线实现的接口",
-              "acceptance": "NKN真实联网/设备路由/Root服务及SEC-05最终新依赖复核由主线完成",
-              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
-              "line": 124,
-              "batch": "第四批PR：A-13～16 / NKN-02与SEC-05构建交付",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-17",
-              "title": "SEC-01 · 按固定SHA只读盘点HTTP、IPC、媒体、文件写入及固定Root动作",
-              "work": "按固定SHA只读盘点HTTP、IPC、媒体、文件写入及固定Root动作；逐入口记录源码位置、调用者、scope、身份/线路绑定、期限、输入上限和撤销路径",
-              "acceptance": "已实现/计划/未知分开；每条结论有实际符号/位置。Core、Root、GATT授权设计只提出缺口，不修改",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 87,
-              "batch": "fungi1220 · A-17～20 · 权限清单与公开产物扫描",
-              "task_ids": [
-                "SEC-01"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-18",
-              "title": "SEC-04 · 新增只读扫描工具，默认只输出计划",
-              "work": "新增只读扫描工具，默认只输出计划；显式扫描Git已跟踪的公开文本白名单或隔离合成发行目录；限制文件/总量/时间，拒绝越界路径、链接及特殊文件",
-              "acceptance": "使用有限规则识别私钥块、Wi-Fi口令字段、令牌和疑似个人通信字段；输出规则ID/相对位置/统计，不回显命中原文或值；无上传、联网、自动修复/删除",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 88,
-              "batch": "fungi1220 · A-17～20 · 权限清单与公开产物扫描",
-              "task_ids": [
-                "SEC-04"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-19",
-              "title": "SEC-04 · 正例使用明显标记的合成秘密，反例覆盖公开公钥/摘要/示例字段",
-              "work": "正例使用明显标记的合成秘密，反例覆盖公开公钥/摘要/示例字段；覆盖超限、无效编码、未知二进制、重复路径和读取失败",
-              "acceptance": "错误/跳过不显示“全部干净”；退出状态区分通过/发现/未完成；支持按规则说明误报，不能直接全局忽略凭据类别。扫描通过不等于已证明制品无任何秘密",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 89,
-              "batch": "fungi1220 · A-17～20 · 权限清单与公开产物扫描",
-              "task_ids": [
-                "SEC-04"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-20",
-              "title": "交付 · 提交权限表、扫描脚本/测试、合成报告与CI接入建议",
-              "work": "提交权限表、扫描脚本/测试、合成报告与CI接入建议；执行真实脚本和测试，附公开输入清单与输出脱敏证明",
-              "acceptance": "不修改Actions或生产打包器；主线决定正式发行白名单、真实私有制品审查和修复。SEC-01/04全局仍待主线审核",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 90,
-              "batch": "fungi1220 · A-17～20 · 权限清单与公开产物扫描",
-              "task_ids": [],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-21",
-              "title": "按III盘点真实引擎可提供字段",
-              "work": "按III盘点真实引擎可提供字段",
-              "acceptance": "NKN-07离线部分。等待A-13～16引擎接口获审后修改引擎输出；无法提供的字段不造值。主线负责Core读取鉴权、实际网络及控制开关",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 229,
-              "batch": "T5 · fungi1220接口离线包",
-              "task_ids": [
-                "NKN-07"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-22",
-              "title": "实现只读DTO/未知字段映射",
-              "work": "实现只读DTO/未知字段映射",
-              "acceptance": "NKN-07离线部分。等待A-13～16引擎接口获审后修改引擎输出；无法提供的字段不造值。主线负责Core读取鉴权、实际网络及控制开关",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 229,
-              "batch": "T5 · fungi1220接口离线包",
-              "task_ids": [
-                "NKN-07"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-23",
-              "title": "独立状态展示组件及u64/陈旧/乱序/取消测试",
-              "work": "独立状态展示组件及u64/陈旧/乱序/取消测试",
-              "acceptance": "NKN-07离线部分。等待A-13～16引擎接口获审后修改引擎输出；无法提供的字段不造值。主线负责Core读取鉴权、实际网络及控制开关",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 229,
-              "batch": "T5 · fungi1220接口离线包",
-              "task_ids": [
-                "NKN-07"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-24",
-              "title": "交实际组件、本地浏览器与主线接线报告",
-              "work": "交实际组件、本地浏览器与主线接线报告",
-              "acceptance": "NKN-07离线部分。等待A-13～16引擎接口获审后修改引擎输出；无法提供的字段不造值。主线负责Core读取鉴权、实际网络及控制开关",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 229,
-              "batch": "T5 · fungi1220接口离线包",
-              "task_ids": [
-                "NKN-07"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-25",
-              "title": "NKN-03/04：基于已有最小引擎，完成固定Root策略端口、低权监督、开关/资源所有权及退出/重连预算库",
-              "work": "NKN-03/04：基于已有最小引擎，完成固定Root策略端口、低权监督、开关/资源所有权及退出/重连预算库；注入Mock Root/引擎，覆盖部分启动、停止超时、旧epoch迟到、引用释放",
-              "acceptance": "真正运行生产监督代码，不用mock状态机自证；真实路由/Root激活和实际cgroup由主线核验",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 296,
-              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
-              "task_ids": [
-                "NKN-03",
-                "NKN-04"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-26",
-              "title": "NKN-05/06、REMOTE-01：明确发现/信令/媒体分层，复用成员证明，有限设备服务路由与撤销/重放/默认拒绝",
-              "work": "NKN-05/06、REMOTE-01：明确发现/信令/媒体分层，复用成员证明，有限设备服务路由与撤销/重放/默认拒绝；先交字段/签名域/状态与允许服务的接口PR",
-              "acceptance": "不产生第二Owner或任意LAN出口。Core权限桥由D实现；A交真实协议/路由策略库及模拟端口测试，主线批准后接线",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 297,
-              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
-              "task_ids": [
-                "NKN-05",
-                "NKN-06",
-                "REMOTE-01"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-27",
-              "title": "BLE1-01～04：T5帧预算保持，提交标准安全会话/依赖/密钥域/设备pin及transcript提案",
-              "work": "BLE1-01～04：T5帧预算保持，提交标准安全会话/依赖/密钥域/设备pin及transcript提案；获审后实现Rust与浏览器加解密/互操作、错误pin/撤销/重放/旧会话向量",
-              "acceptance": "明确安全套件尚未获审时不能写成已冻结；不用假签名、固定钥匙或自造加密算法。生产绑定由D在真实Core grant下使用，不是前端自报认证",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 298,
-              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
-              "task_ids": [
-                "BLE1-01",
-                "BLE1-02",
-                "BLE1-03",
-                "BLE1-04"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-28",
-              "title": "SEC-02/03/07：扩展既有权限清单至Auth/realm/SIM/重放/撤销失败矩阵及Root单元静态检查",
-              "work": "SEC-02/03/07：扩展既有权限清单至Auth/realm/SIM/重放/撤销失败矩阵及Root单元静态检查；复核实际UID/能力/地址族/路径/polkit/credential约束，给出逐SHA缺陷和最小复现",
-              "acceptance": "可用真实Core开发夹具/临时IPC测试拒绝路径；主线负责受限Root实测及最终安全结论。生产缺陷按文件负责人修复，不跨包抢改",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 299,
-              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
-              "task_ids": [
-                "SEC-02",
-                "SEC-03",
-                "SEC-07"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-29",
-              "title": "FWD-09：按EmailSenderV1实现SMTP/TLS、有限配置及真实本机TLS邮件服务夹具，覆盖拒绝、认证失败、DATA前/后断线、超时和关闭",
-              "work": "FWD-09：按EmailSenderV1实现SMTP/TLS、有限配置及真实本机TLS邮件服务夹具，覆盖拒绝、认证失败、DATA前/后断线、超时和关闭",
-              "acceptance": "不发真实邮件、不放松Fence/固定出口/证书检查；配置/queue版本/新依赖的兼容PR先获审。发布支持仍等获准邮箱实测",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 300,
-              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
-              "task_ids": [
-                "FWD-09"
-              ],
-              "status": "not_accepted"
-            },
-            {
-              "id": "A-30",
-              "title": "NKN-10/11：提交可复现引擎/会话/Root策略材料、来源许可、有限开关/远程流程文档及故障回选接口说明，完成本包真实回归和交接",
-              "work": "NKN-10/11：提交可复现引擎/会话/Root策略材料、来源许可、有限开关/远程流程文档及故障回选接口说明，完成本包真实回归和交接",
-              "acceptance": "C组装候选，主线持钥签名/安装/外网验收；不能另设无签名更新器或用Go代码冒充Rust",
-              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
-              "line": 301,
-              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
-              "task_ids": [
-                "NKN-10",
-                "NKN-11"
-              ],
-              "status": "not_accepted"
-            }
-          ]
+          "steps": []
         },
         {
           "member_id": "member-b",
@@ -7467,6 +7096,371 @@
               "batch": "4. wnfhsj88 · B-29～32 · 网页装配、PWA材料和报告",
               "task_ids": [
                 "STAB-06"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-01",
+              "title": "对应STAT-01：固定类型与协议",
+              "work": "1. 阅读固定上游，给出逐文件来源表和与RustSimHub不同的策略。\n2. 定义有限Window枚举、专用主题、协议版本、过期/续订参数和时间来源。产品主题不得混用nknguard/NasSimHub。\n3. 定义 `EnabledPolicy`、查询/签到结果和错误分类；配置缺失默认OFF。\n4. 为未知版本、错主题、超大输入、无效窗口/周期及多余字段补真实解析测试。\n5. 写协议说明：公开字段、假名化关联性、计数不是精确人数、离线和过期如何显示。",
+              "acceptance": "",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 35,
+              "batch": "第一批PR：契约和纯组件（A-01～A-04）",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-02",
+              "title": "对应STAT-02：独立身份与持久格式",
+              "work": "1. 独立生成/注入统计身份，不能读取或复用Owner、SIM、短信、通信主密钥；域分离常量写清楚。\n2. 公开DTO只含统计公钥及必要协议字段，不导出种子。若本批仅提供存储接口，应给实际文件后端或明确将真实后端作为后续缺口，不以进程内map声称跨重启可用。\n3. 保存版本、周期/窗口、待确认交易摘要、最近成功信息及禁用代次；使用有界解析与原子持久化。损坏文件保留并报错，不自动生成新身份掩盖损坏。\n4. 在临时目录检验重开、写入失败、短文件、错误权限/链接（Linux条件测试）、错误版本；不同身份/产品域互不采纳。",
+              "acceptance": "",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 43,
+              "batch": "第一批PR：契约和纯组件（A-01～A-04）",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-03",
+              "title": "对应STAT-04：有限查询与缓存",
+              "work": "1. 定义可注入的只读查询transport，结果类型区分成功0、失败未知、可用旧缓存。\n2. 三窗口缓存分别保存值、来源/成功时间/有效期；重启后时间回拨不能把旧结果变成新结果。\n3. 输入计数有界并检查整数溢出、畸形JSON、重复字段/页面、过大结果和过期；不信任RPC返回的任意URL或命令。\n4. 用实际组件配合内存transport/本地合成响应测试离线、超时、部分窗口失败、真实0以及缓存过期；不要连接公网RPC。",
+              "acceptance": "",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 50,
+              "batch": "第一批PR：契约和纯组件（A-01～A-04）",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-04",
+              "title": "对应STAT-05：默认OFF与隐私契约",
+              "work": "1. 定义明确的所有者同意输入与公开披露摘要；没有同意不得产生签到意图。不能用无条件 `AlwaysEnabled`。\n2. 公开字段只限统计公钥、产品主题、必要窗口/时间信息；不包含手机号、短信、IMEI/IMSI/ICCID、联系人、SSID、个人流量或设备主身份。\n3. OFF查询不得创建密钥、队列、定时任务；独立统计开关不改变转发、VPN或普通蜂窝数据状态。\n4. 用计数transport断言OFF时网络调用为0；日志/序列化结果不泄漏种子或受限输入。\n5. 提交第一批PR，列出真实传输/主线IPC仍未实现，等待类型契约审核。不得自行将STAT台账标完成。",
+              "acceptance": "",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 57,
+              "batch": "第一批PR：契约和纯组件（A-01～A-04）",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-05",
+              "title": "对应STAT-03：有限签到和确认",
+              "work": "1. 定义实际状态转换：Disabled、Due、Prepared/Pending、Confirmed、Failed、Unknown；提交成功不等于链上确认。\n2. 先持久意图再允许transport提交，提交结果不明保留原摘要，重开只查询；不得通过生成新交易绕过防重。\n3. 明确提交、确认、退避和过期预算，时间源可注入；时间回拨不无限签到。\n4. transport同时支持提交/查询明确分离，公开方法不接受任意shell、目标URL或外部密钥路径。\n5. 用真实状态机合成transport验证确认成功、拒绝、超时、lost reply、确认前退出和重启。真实SDK适配尚缺时明确报缺口，不返回固定成功。",
+              "acceptance": "",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 69,
+              "batch": "第二批PR：确认状态机与失败矩阵（A-05～A-08）",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-06",
+              "title": "对应STAT-06：取消和资源所有权",
+              "work": "1. 禁用递增代次，取消旧代次任务，迟到回复不能继续产生新的签到。\n2. 共享NKN引擎的释放由显式引用/所有者接口决定，不关闭其他功能的会话。\n3. 若本批没有独立服务进程，只证明库的调用/任务边界；不宣称关闭后设备无PID。\n4. 说明历史链上订阅可能到期前仍存在，不能把本地删除状态当作链上撤回。",
+              "acceptance": "",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 77,
+              "batch": "第二批PR：确认状态机与失败矩阵（A-05～A-08）",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-07",
+              "title": "对应STAT-07：失败和重启矩阵",
+              "work": "1. 全窗口覆盖：错主题、错身份、重复/恶意响应、离线、确认失败、缓存失效。\n2. 持久化覆盖：写满/权限、保存前后中断、重开、损坏保留与幂等。\n3. 并发覆盖：重复开启、提交中禁用、禁用后迟到成功、查询和报告并发。\n4. 每项断言真实生产模块，禁止复制一个“测试专用实现”来代替它。",
+              "acceptance": "",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 84,
+              "batch": "第二批PR：确认状态机与失败矩阵（A-05～A-08）",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-08",
+              "title": "交付",
+              "work": "1. 执行 `cargo fmt --all -- --check`、`cargo test -p rustsimhub-usage-stats --locked`、该包all-targets严格Clippy及生产特性检查。\n2. 可运行时再执行workspace回归；平台/依赖无法运行的检查标“未运行”，不要声称全绿。\n3. 报告实际SHA、命令/结果、来源许可、状态机图、默认OFF的调用计数证据和剩余接口。\n4. 附一段直接给主线Codex的集成说明：需要哪些Core命令/数据目录/管理字段、默认设置、真实SDK缺口。",
+              "acceptance": "",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 91,
+              "batch": "第二批PR：确认状态机与失败矩阵（A-05～A-08）",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-09",
+              "title": "核对固定nknguard提交c32952d7586676fec10f71a30b22969cb24881f3，逐文件区分NKN/DHT/成员/VPN/统计、Android/NAS依赖及原许可",
+              "work": "核对固定nknguard提交c32952d7586676fec10f71a30b22969cb24881f3，逐文件区分NKN/DHT/成员/VPN/统计、Android/NAS依赖及原许可；限定棒子需要的功能",
+              "acceptance": "来源、版本和真实语言清楚；不声称现有Go引擎已Rust重写",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 112,
+              "batch": "第三批PR：A-09～12 / NKN-01与SEC-05离线盘点",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-10",
+              "title": "设计有限本地引擎输入/输出、帧大小、取消/超时和错误类型",
+              "work": "设计有限本地引擎输入/输出、帧大小、取消/超时和错误类型；与usage-stats接口隔离，不用Owner或SIM身份充当统计身份",
+              "acceptance": "可审查契约及解析正反例，不接受任意shell、设备路径、路由或URL执行指令；协议未获审不实现主线IPC",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 113,
+              "batch": "第三批PR：A-09～12 / NKN-01与SEC-05离线盘点",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-11",
+              "title": "盘点Cargo.lock、现有Go桥/新增Go锁定依赖、Native Opus与ALSA及实际复用来源",
+              "work": "盘点Cargo.lock、现有Go桥/新增Go锁定依赖、Native Opus与ALSA及实际复用来源；提供可重跑的依赖/许可证清单生成器",
+              "acceptance": "区分直接/间接/系统依赖，保留版本/校验和/许可证/来源，未知许可或通告不能填“通过”；不批量升级或换许可证",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 114,
+              "batch": "第三批PR：A-09～12 / NKN-01与SEC-05离线盘点",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-12",
+              "title": "提交第三批小PR，提供支持/不支持矩阵、无设备模拟协议测试、依赖清单和主线接入提案",
+              "work": "提交第三批小PR，提供支持/不支持矩阵、无设备模拟协议测试、依赖清单和主线接入提案",
+              "acceptance": "主线审核最小引擎边界后才开展下一批；未连接真实NKN/RPC或发交易",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 115,
+              "batch": "第三批PR：A-09～12 / NKN-01与SEC-05离线盘点",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-13",
+              "title": "按已审契约提取/构建最小独立Go引擎，锁定Go版本和模块校验",
+              "work": "按已审契约提取/构建最小独立Go引擎，锁定Go版本和模块校验；去掉NAS/Android启动耦合，提供明确的本地stdio入口",
+              "acceptance": "可运行的实际引擎代码，不能只返回固定成功；网络功能默认不启动，真实NKN适配未实现就明确拒绝/说明",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 121,
+              "batch": "第四批PR：A-13～16 / NKN-02与SEC-05构建交付",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-14",
+              "title": "构建Linux native与ARM64，记录精确源码、工具链、依赖摘要、ELF架构和构建信息",
+              "work": "构建Linux native与ARM64，记录精确源码、工具链、依赖摘要、ELF架构和构建信息；能复现时比较两次独立构建",
+              "acceptance": "ARM64交叉编译不等于设备运行；不能复用私有密钥、发布生产签名或安装制品",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 122,
+              "batch": "第四批PR：A-13～16 / NKN-02与SEC-05构建交付",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-15",
+              "title": "使用真实程序测试有限帧、截断/未知字段、错误配置、EOF、取消和退出",
+              "work": "使用真实程序测试有限帧、截断/未知字段、错误配置、EOF、取消和退出；检查构建元数据/日志/清单没有种子或上游示例密钥",
+              "acceptance": "只用合成输入与本地模拟transport；没有真实适配不能用模拟成功冒充公网能力",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 123,
+              "batch": "第四批PR：A-13～16 / NKN-02与SEC-05构建交付",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-16",
+              "title": "提交第四批PR，提供构建脚本、校验清单、来源许可、失败/未运行项和需要主线实现的接口",
+              "work": "提交第四批PR，提供构建脚本、校验清单、来源许可、失败/未运行项和需要主线实现的接口",
+              "acceptance": "NKN真实联网/设备路由/Root服务及SEC-05最终新依赖复核由主线完成",
+              "source": "docs/team/MEMBER-A-USAGE-STATS.md",
+              "line": 124,
+              "batch": "第四批PR：A-13～16 / NKN-02与SEC-05构建交付",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-17",
+              "title": "SEC-01 · 按固定SHA只读盘点HTTP、IPC、媒体、文件写入及固定Root动作",
+              "work": "按固定SHA只读盘点HTTP、IPC、媒体、文件写入及固定Root动作；逐入口记录源码位置、调用者、scope、身份/线路绑定、期限、输入上限和撤销路径",
+              "acceptance": "已实现/计划/未知分开；每条结论有实际符号/位置。Core、Root、GATT授权设计只提出缺口，不修改",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 87,
+              "batch": "fungi1220 · A-17～20 · 权限清单与公开产物扫描",
+              "task_ids": [
+                "SEC-01"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-18",
+              "title": "SEC-04 · 新增只读扫描工具，默认只输出计划",
+              "work": "新增只读扫描工具，默认只输出计划；显式扫描Git已跟踪的公开文本白名单或隔离合成发行目录；限制文件/总量/时间，拒绝越界路径、链接及特殊文件",
+              "acceptance": "使用有限规则识别私钥块、Wi-Fi口令字段、令牌和疑似个人通信字段；输出规则ID/相对位置/统计，不回显命中原文或值；无上传、联网、自动修复/删除",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 88,
+              "batch": "fungi1220 · A-17～20 · 权限清单与公开产物扫描",
+              "task_ids": [
+                "SEC-04"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-19",
+              "title": "SEC-04 · 正例使用明显标记的合成秘密，反例覆盖公开公钥/摘要/示例字段",
+              "work": "正例使用明显标记的合成秘密，反例覆盖公开公钥/摘要/示例字段；覆盖超限、无效编码、未知二进制、重复路径和读取失败",
+              "acceptance": "错误/跳过不显示“全部干净”；退出状态区分通过/发现/未完成；支持按规则说明误报，不能直接全局忽略凭据类别。扫描通过不等于已证明制品无任何秘密",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 89,
+              "batch": "fungi1220 · A-17～20 · 权限清单与公开产物扫描",
+              "task_ids": [
+                "SEC-04"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-20",
+              "title": "交付 · 提交权限表、扫描脚本/测试、合成报告与CI接入建议",
+              "work": "提交权限表、扫描脚本/测试、合成报告与CI接入建议；执行真实脚本和测试，附公开输入清单与输出脱敏证明",
+              "acceptance": "不修改Actions或生产打包器；主线决定正式发行白名单、真实私有制品审查和修复。SEC-01/04全局仍待主线审核",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 90,
+              "batch": "fungi1220 · A-17～20 · 权限清单与公开产物扫描",
+              "task_ids": [],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-21",
+              "title": "按III盘点真实引擎可提供字段",
+              "work": "按III盘点真实引擎可提供字段",
+              "acceptance": "NKN-07离线部分。等待A-13～16引擎接口获审后修改引擎输出；无法提供的字段不造值。主线负责Core读取鉴权、实际网络及控制开关",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 229,
+              "batch": "T5 · fungi1220接口离线包",
+              "task_ids": [
+                "NKN-07"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-22",
+              "title": "实现只读DTO/未知字段映射",
+              "work": "实现只读DTO/未知字段映射",
+              "acceptance": "NKN-07离线部分。等待A-13～16引擎接口获审后修改引擎输出；无法提供的字段不造值。主线负责Core读取鉴权、实际网络及控制开关",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 229,
+              "batch": "T5 · fungi1220接口离线包",
+              "task_ids": [
+                "NKN-07"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-23",
+              "title": "独立状态展示组件及u64/陈旧/乱序/取消测试",
+              "work": "独立状态展示组件及u64/陈旧/乱序/取消测试",
+              "acceptance": "NKN-07离线部分。等待A-13～16引擎接口获审后修改引擎输出；无法提供的字段不造值。主线负责Core读取鉴权、实际网络及控制开关",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 229,
+              "batch": "T5 · fungi1220接口离线包",
+              "task_ids": [
+                "NKN-07"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-24",
+              "title": "交实际组件、本地浏览器与主线接线报告",
+              "work": "交实际组件、本地浏览器与主线接线报告",
+              "acceptance": "NKN-07离线部分。等待A-13～16引擎接口获审后修改引擎输出；无法提供的字段不造值。主线负责Core读取鉴权、实际网络及控制开关",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 229,
+              "batch": "T5 · fungi1220接口离线包",
+              "task_ids": [
+                "NKN-07"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-25",
+              "title": "NKN-03/04：基于已有最小引擎，完成固定Root策略端口、低权监督、开关/资源所有权及退出/重连预算库",
+              "work": "NKN-03/04：基于已有最小引擎，完成固定Root策略端口、低权监督、开关/资源所有权及退出/重连预算库；注入Mock Root/引擎，覆盖部分启动、停止超时、旧epoch迟到、引用释放",
+              "acceptance": "真正运行生产监督代码，不用mock状态机自证；真实路由/Root激活和实际cgroup由主线核验",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 296,
+              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
+              "task_ids": [
+                "NKN-03",
+                "NKN-04"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-26",
+              "title": "NKN-05/06、REMOTE-01：明确发现/信令/媒体分层，复用成员证明，有限设备服务路由与撤销/重放/默认拒绝",
+              "work": "NKN-05/06、REMOTE-01：明确发现/信令/媒体分层，复用成员证明，有限设备服务路由与撤销/重放/默认拒绝；先交字段/签名域/状态与允许服务的接口PR",
+              "acceptance": "不产生第二Owner或任意LAN出口。Core权限桥由D实现；A交真实协议/路由策略库及模拟端口测试，主线批准后接线",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 297,
+              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
+              "task_ids": [
+                "NKN-05",
+                "NKN-06",
+                "REMOTE-01"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-27",
+              "title": "BLE1-01～04：T5帧预算保持，提交标准安全会话/依赖/密钥域/设备pin及transcript提案",
+              "work": "BLE1-01～04：T5帧预算保持，提交标准安全会话/依赖/密钥域/设备pin及transcript提案；获审后实现Rust与浏览器加解密/互操作、错误pin/撤销/重放/旧会话向量",
+              "acceptance": "明确安全套件尚未获审时不能写成已冻结；不用假签名、固定钥匙或自造加密算法。生产绑定由D在真实Core grant下使用，不是前端自报认证",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 298,
+              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
+              "task_ids": [
+                "BLE1-01",
+                "BLE1-02",
+                "BLE1-03",
+                "BLE1-04"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-28",
+              "title": "SEC-02/03/07：扩展既有权限清单至Auth/realm/SIM/重放/撤销失败矩阵及Root单元静态检查",
+              "work": "SEC-02/03/07：扩展既有权限清单至Auth/realm/SIM/重放/撤销失败矩阵及Root单元静态检查；复核实际UID/能力/地址族/路径/polkit/credential约束，给出逐SHA缺陷和最小复现",
+              "acceptance": "可用真实Core开发夹具/临时IPC测试拒绝路径；主线负责受限Root实测及最终安全结论。生产缺陷按文件负责人修复，不跨包抢改",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 299,
+              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
+              "task_ids": [
+                "SEC-02",
+                "SEC-03",
+                "SEC-07"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-29",
+              "title": "FWD-09：按EmailSenderV1实现SMTP/TLS、有限配置及真实本机TLS邮件服务夹具，覆盖拒绝、认证失败、DATA前/后断线、超时和关闭",
+              "work": "FWD-09：按EmailSenderV1实现SMTP/TLS、有限配置及真实本机TLS邮件服务夹具，覆盖拒绝、认证失败、DATA前/后断线、超时和关闭",
+              "acceptance": "不发真实邮件、不放松Fence/固定出口/证书检查；配置/queue版本/新依赖的兼容PR先获审。发布支持仍等获准邮箱实测",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 300,
+              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
+              "task_ids": [
+                "FWD-09"
+              ],
+              "status": "not_accepted"
+            },
+            {
+              "id": "A-30",
+              "title": "NKN-10/11：提交可复现引擎/会话/Root策略材料、来源许可、有限开关/远程流程文档及故障回选接口说明，完成本包真实回归和交接",
+              "work": "NKN-10/11：提交可复现引擎/会话/Root策略材料、来源许可、有限开关/远程流程文档及故障回选接口说明，完成本包真实回归和交接",
+              "acceptance": "C组装候选，主线持钥签名/安装/外网验收；不能另设无签名更新器或用Go代码冒充Rust",
+              "source": "docs/team/ADDITIONAL-OFFLINE-PACKAGES-2026-10-27.md",
+              "line": 301,
+              "batch": "3. fungi1220 · A-25～30 · 引擎、安全会话与邮件",
+              "task_ids": [
+                "NKN-10",
+                "NKN-11"
               ],
               "status": "not_accepted"
             }

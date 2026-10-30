@@ -3,20 +3,30 @@
   "source_head": "33805388bf848bdcb0de4751092271dc682ae47b",
   "source_pr": "https://github.com/Viper-Boss/RustSimHub/pull/66",
   "statistics_head": "677ba57eaebaae9aede4968e32758a754b9703fa",
-  "snapshot_updated_at": "2026-10-30T07:25:54.773931+00:00",
-  "exported_at": "2026-10-30T07:28:03.088694+00:00",
+  "snapshot_updated_at": "2026-10-30T09:03:51.626315+00:00",
+  "exported_at": "2026-10-30T09:08:08.189962+00:00",
   "files": {
     ".gitattributes": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-    "README.md": "27979166229854ea24435ae4ae0b4635e19b1238474763c21dcd4480bffb3f86",
+    "README.md": "737dda03be78c54edafb3c687242ff3405bacf43433054e8de23ef5b09ee37cb",
     "build.py": "08eaaee07d882d16ddb7a3470dfcdba857dc71e076d1f6692901c7d0e966819e",
-    "index.html": "2fe1051be1af3bff6832f16bf7d6feaaae8e5f3a5b18492639b13eaeeba30340",
-    "progress.json": "5ffa876376fb7ae01a85f76c57bdb49590c5e82772f84b00fe567646fca85ce1",
+    "index.html": "910f98542e905ed642618b212dc778e8898a8a048a4b4fbc0b8a1ecb8345f5dd",
+    "progress.json": "83d51529e90460c7b3cc1638a43746e3e43e007d312055875b8fe70af21eb458",
     "remaining.md": "9e21a49e3df99d8af3c78f27551e881ad7c1451b6401842d9128254914c0461f",
     "src/dashboard.css": "f70a0e0b89ee7826aa43e6b052573b4ad21bc40ce32338bf5d39854d65ab4179",
-    "src/dashboard.mjs": "0043e3263972a447c787b71c88b6690c3a31b1bcdd29c43cc3363e9b16c7306d",
+    "src/dashboard.mjs": "1f7b7f48bb15f3513747725f62300b7a0effca580e45869f45a0b4b0d678470d",
     "src/index.template.html": "b77c01393bc703def8a474bafbf1efa17aab2f29a178250f9bbdfbee5b830d68",
     "src/team.css": "aa2d8cede28e48a366eb977dc508c8fbc2f215d8b924b820115387cee7861b8a"
+  },
+  "assignment_update": {
+    "source_pr": "https://github.com/Viper-Boss/RustSimHub/pull/111",
+    "source_head": "c4aa643c90a8b93eb635ab5a86fe7ce77a7fae9d",
+    "baseline_public_head": "454a81915261e5ecef5012a653c90892025354cc",
+    "from": "member-a",
+    "to": "member-b",
+    "step_count": 30,
+    "project_count": 28,
+    "progress_unchanged": true
   }
 }
