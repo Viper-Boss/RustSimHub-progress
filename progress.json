@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-10-30T09:03:51.626315+00:00",
+  "updated_at": "2026-11-01T00:50:59.530020+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -80,8 +80,8 @@
     },
     {
       "label": "最新合并",
-      "value": "PR #100",
-      "detail": "按所有者决定直接通过，未技术审核"
+      "value": "PR #138",
+      "detail": "10-31合并成员蓝牙/恢复/NKN/邮件/统计交付；未做设备验收"
     },
     {
       "label": "B线材料",
@@ -5419,12 +5419,24 @@
       "evidence": [
         "https://github.com/Viper-Boss/RustSimHub/pull/69"
       ]
+    },
+    {
+      "at": "2026-10-31T05:13:00+00:00",
+      "type": "merged",
+      "title": "合并成员交付PR #113～#138",
+      "detail": "wnfhsj88/GTW交付的BLE GATT/BlueZ、恢复认领与试运行授权、schema9迁移、NKN、SMTP、统计等离线实现由所有者合并；合并不等于步骤验收，台账完成数不变。"
+    },
+    {
+      "at": "2026-11-01T06:00:00+00:00",
+      "type": "verified",
+      "title": "最新main全量回归",
+      "detail": "main ce9ccb8：fmt与默认/全部功能clippy通过；测试默认901、全部功能1156通过，仅6项已知环境失败（forwarder egress×5需root网络、compat Go无Go）；音频34、网页、进度测试通过。仅电脑侧，非设备验收。"
     }
   ],
   "team": {
     "schema": 1,
-    "source_revision": "677ba57eaebaae9aede4968e32758a754b9703fa",
-    "generated_at": "2026-10-29T19:19:17.348846+00:00",
+    "source_revision": "ce9ccb8debb61db49860fe795c1f3e471b749f4c",
+    "generated_at": "2026-11-01T00:50:59.530020+00:00",
     "method": "Git blame非空行；主线非merge增删/提交；明确HEAD审核的步骤；工时仅成员自报",
     "members": [
       {
@@ -5474,15 +5486,15 @@
         "estimate_hours": null,
         "stats": {
           "current_lines": {
-            "product": 48428,
-            "tests": 33144,
-            "tooling": 9466,
-            "firmware": 1169
+            "product": 50089,
+            "tests": 35441,
+            "tooling": 9469,
+            "firmware": 1180
           },
-          "commits": 406,
-          "code_commits": 264,
-          "added": 97190,
-          "deleted": 2609
+          "commits": 417,
+          "code_commits": 274,
+          "added": 101540,
+          "deleted": 2737
         },
         "work": {
           "assigned_steps": 20,
@@ -5777,7 +5789,7 @@
             },
             {
               "pr": 66,
-              "head": "56d56c35f2cf58273a7f31cdc08fd539f7e8bafa",
+              "head": "e9414f459c1bab4ce2ff1399fa7f5a14b941ad92",
               "state": "OPEN"
             },
             {
@@ -5812,7 +5824,7 @@
             },
             {
               "pr": 73,
-              "head": "c24164839b8e88297a8f21993095008e60dd9d08",
+              "head": "d86635fa3d3ad2315a734689fe495709d704d59f",
               "state": "OPEN"
             }
           ]
@@ -5851,7 +5863,7 @@
             {
               "pr": 41,
               "head": "295c47655af1d69d2eb0568eda09023c4599c16b",
-              "state": "OPEN"
+              "state": "MERGED"
             }
           ]
         }
@@ -5985,15 +5997,15 @@
         ],
         "stats": {
           "current_lines": {
-            "product": 0,
-            "tests": 0,
-            "tooling": 0,
-            "firmware": 0
+            "product": 2352,
+            "tests": 4241,
+            "tooling": 1523,
+            "firmware": 1
           },
-          "commits": 0,
-          "code_commits": 0,
-          "added": 0,
-          "deleted": 0
+          "commits": 77,
+          "code_commits": 29,
+          "added": 8434,
+          "deleted": 102
         },
         "work": {
           "assigned_steps": 62,
@@ -6114,7 +6126,7 @@
             {
               "pr": 101,
               "head": "51043fefcd323d6fd81f592da945f199249f5034",
-              "state": "OPEN"
+              "state": "MERGED"
             },
             {
               "pr": 102,
@@ -6144,6 +6156,171 @@
             {
               "pr": 107,
               "head": "241803809029dc7da20a611baef6b476cc3c901f",
+              "state": "MERGED"
+            },
+            {
+              "pr": 108,
+              "head": "f1428eec8462ab328eb849e6617c4881cc3ac691",
+              "state": "MERGED"
+            },
+            {
+              "pr": 109,
+              "head": "2d4b0c6e4e130fd07ff1c523c144e6df3fe87475",
+              "state": "MERGED"
+            },
+            {
+              "pr": 110,
+              "head": "fce922512fb52bb0eb5d12de951f30707390f1a8",
+              "state": "MERGED"
+            },
+            {
+              "pr": 111,
+              "head": "d3a381353ec665fff3aecebe2767306d1baec3b8",
+              "state": "MERGED"
+            },
+            {
+              "pr": 112,
+              "head": "0f94e9ed28efd43544dd4c893e517ce5668a2306",
+              "state": "MERGED"
+            },
+            {
+              "pr": 113,
+              "head": "32a2c3dace7e0bd25a117670adba22c8a979b1e2",
+              "state": "MERGED"
+            },
+            {
+              "pr": 114,
+              "head": "0f03b2724152e4f317576a032ba6102d49eee9d2",
+              "state": "MERGED"
+            },
+            {
+              "pr": 115,
+              "head": "e773a57a7e0c0a4d9f5c63850dae22f111f9edb2",
+              "state": "MERGED"
+            },
+            {
+              "pr": 116,
+              "head": "bdf2de4a08bad08d6d70d588bb3bbae8ce3714ef",
+              "state": "MERGED"
+            },
+            {
+              "pr": 117,
+              "head": "a2732cc2a23693b16f209225b9463199192223cf",
+              "state": "MERGED"
+            },
+            {
+              "pr": 118,
+              "head": "323e9d9a700867bd98937c73b3f66592c67748ad",
+              "state": "MERGED"
+            },
+            {
+              "pr": 119,
+              "head": "69af8d8037d6c89ea593ff4ae28cc1d7b32cb685",
+              "state": "MERGED"
+            },
+            {
+              "pr": 120,
+              "head": "fd6d8f330daae11fa8a66a8cc61187425a96975a",
+              "state": "MERGED"
+            },
+            {
+              "pr": 121,
+              "head": "2df1ae335c025d4fc260c1de5e9fb5c02279bad7",
+              "state": "MERGED"
+            },
+            {
+              "pr": 122,
+              "head": "663e138fcfce99a147d97ec2a59337d93f55f777",
+              "state": "MERGED"
+            },
+            {
+              "pr": 123,
+              "head": "4db90796e6244bc9d7b6bdc45a4c4d3abef3267c",
+              "state": "MERGED"
+            },
+            {
+              "pr": 124,
+              "head": "c387db65d90426dc2aa15a758c4fcfdc90edf5d1",
+              "state": "MERGED"
+            },
+            {
+              "pr": 125,
+              "head": "1ab2e1ce2db3a24dd61aea4c03cc80ecff1ccde3",
+              "state": "MERGED"
+            },
+            {
+              "pr": 126,
+              "head": "2b69cf7594db318e181927c13e3e6dcb46491e33",
+              "state": "MERGED"
+            },
+            {
+              "pr": 127,
+              "head": "6e78c636ae595b3b624f67c7495abae295ff53ea",
+              "state": "MERGED"
+            },
+            {
+              "pr": 128,
+              "head": "974b6739ae2e4ef9d8b2cf8558cb986b789b82df",
+              "state": "MERGED"
+            },
+            {
+              "pr": 129,
+              "head": "401d5288dc40fdf7f7fffbf578431aca507102be",
+              "state": "MERGED"
+            },
+            {
+              "pr": 130,
+              "head": "1354a41d75215c915668fc4626c253f285b0379d",
+              "state": "MERGED"
+            },
+            {
+              "pr": 131,
+              "head": "9f598f24ea33282deaea49cb707141e2495a0d46",
+              "state": "MERGED"
+            },
+            {
+              "pr": 132,
+              "head": "5ddfd82f2127e7b546f33e1d936b0685d9866746",
+              "state": "MERGED"
+            },
+            {
+              "pr": 133,
+              "head": "ad32afc930c224cb0c69a04aebc73df82ac6f2a1",
+              "state": "MERGED"
+            },
+            {
+              "pr": 134,
+              "head": "d3c7de903fb73a93a087e52e3afa0eab2493cb17",
+              "state": "MERGED"
+            },
+            {
+              "pr": 135,
+              "head": "a963f038ed82ecf6c35bc8159778b4546267f89f",
+              "state": "MERGED"
+            },
+            {
+              "pr": 136,
+              "head": "da698954886f06bf226d38c41a7f1362bc615cf6",
+              "state": "MERGED"
+            },
+            {
+              "pr": 137,
+              "head": "088f4b7d50640472561449be87e88b68bd3bba1d",
+              "state": "MERGED"
+            },
+            {
+              "pr": 138,
+              "head": "747c9cc5f715fe32fce0ac52be7e2c12179d9643",
+              "state": "MERGED"
+            },
+            {
+              "pr": 139,
+              "head": "2f29a919ab72aa4d425e3821f9bc78164bbf8039",
+              "state": "OPEN"
+            },
+            {
+              "pr": 140,
+              "head": "c54e7b3e2d136deab6378961969bc493a1062632",
               "state": "OPEN"
             }
           ]
@@ -6223,14 +6400,14 @@
         "stats": {
           "current_lines": {
             "product": 1164,
-            "tests": 2008,
-            "tooling": 0,
+            "tests": 3382,
+            "tooling": 293,
             "firmware": 0
           },
-          "commits": 14,
-          "code_commits": 8,
-          "added": 3316,
-          "deleted": 179
+          "commits": 32,
+          "code_commits": 13,
+          "added": 5076,
+          "deleted": 186
         },
         "work": {
           "assigned_steps": 30,
@@ -6317,12 +6494,12 @@
             {
               "pr": 98,
               "head": "5cba7bd0a609ed44eed7f125f4275a1c3982aeec",
-              "state": "OPEN"
+              "state": "MERGED"
             },
             {
               "pr": 99,
               "head": "086183aff03585e90fa92cf595392d4ee20ab499",
-              "state": "OPEN"
+              "state": "MERGED"
             }
           ]
         }
@@ -6381,21 +6558,21 @@
     ],
     "unmapped": {
       "current_lines": {
-        "product": 0,
-        "tests": 0,
-        "tooling": 0,
-        "firmware": 0
+        "product": 6594,
+        "tests": 10773,
+        "tooling": 126,
+        "firmware": 8
       },
-      "commits": 0,
-      "code_commits": 0,
-      "added": 0,
-      "deleted": 0
+      "commits": 71,
+      "code_commits": 32,
+      "added": 18145,
+      "deleted": 192
     },
     "totals": {
-      "product": 49592,
-      "tests": 35152,
-      "tooling": 9466,
-      "firmware": 1169
+      "product": 60199,
+      "tests": 53837,
+      "tooling": 11411,
+      "firmware": 1189
     },
     "historical_note": "团队加入前主线历史保留；分配、CI、合并均不自动构成完整功能验收。",
     "task_plan": {
@@ -7937,6 +8114,6 @@
       ]
     },
     "pr_method": "本次已同步GitHub全部PR状态，按成员已收录PR编号去重，每个PR计1次；OPEN/MERGED/CLOSED均计入。先行批准与合并不等于技术审核、测试或设备验收。",
-    "pr_snapshot_at": "2026-10-30T07:25:54.773931+00:00"
+    "pr_snapshot_at": "2026-11-01T00:50:59.530020+00:00"
   }
 }
