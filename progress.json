@@ -6537,15 +6537,15 @@
         ],
         "stats": {
           "current_lines": {
-            "product": 0,
-            "tests": 0,
-            "tooling": 0,
-            "firmware": 0
+            "product": 5090,
+            "tests": 9476,
+            "tooling": 126,
+            "firmware": 8
           },
-          "commits": 0,
-          "code_commits": 0,
-          "added": 0,
-          "deleted": 0
+          "commits": 68,
+          "code_commits": 31,
+          "added": 15128,
+          "deleted": 192
         },
         "work": {
           "assigned_steps": 6,
@@ -6558,15 +6558,15 @@
     ],
     "unmapped": {
       "current_lines": {
-        "product": 6594,
-        "tests": 10773,
-        "tooling": 126,
-        "firmware": 8
+        "product": 1504,
+        "tests": 1297,
+        "tooling": 0,
+        "firmware": 0
       },
-      "commits": 71,
-      "code_commits": 32,
-      "added": 18145,
-      "deleted": 192
+      "commits": 3,
+      "code_commits": 1,
+      "added": 3017,
+      "deleted": 0
     },
     "totals": {
       "product": 60199,
