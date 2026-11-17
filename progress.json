@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-17T16:48:08.271581+00:00",
+  "updated_at": "2026-11-17T16:55:50.300888+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6530,6 +6530,18 @@
       ],
       "evidence": [
         "https://github.com/Viper-Boss/RustSimHub/pull/260"
+      ]
+    },
+    {
+      "at": "2026-11-17T16:55:50.300888+00:00",
+      "type": "state",
+      "title": "STAB-02 · 应用 89 实机资源短测",
+      "detail": "只读采样 64 秒共 5 次，Core、Edge、媒体无自动重启，HTTPS 资源返回 200，最高传感器温度 45–46 ℃。根分区可用 30.0 MiB，/run 可用 3.9 MiB；旧应用槽和维护材料分别占约 1.0 GiB、1.16 GiB。BlueZ 在应用 89 启动后曾三次异常退出并恢复，观察窗口内计数未增加。长期稳定性待验证。",
+      "task_ids": [
+        "STAB-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
       ]
     }
   ],
