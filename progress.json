@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-16T10:26:39.453559+00:00",
+  "updated_at": "2026-11-17T16:48:08.271581+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -149,7 +149,7 @@
     "短信发送授权已消费，新增真实发送需另获号码、内容和次数。",
     "真人听音、拔插、第二设备及BLE单独授权按对应任务通知。",
     "关机/PMIC/SMD继续搁置；手机原生App不在首版范围。",
-    "2026-11-16用户决定：热点配网专用开发/手机验收暂缓，主要用USB电脑工具；保留原缺口/失败/权重，USB当前实机状态不冒称通过。"
+    "2026-11-18 用户确认：热点首次配网开发及手机实机验收暂缓，恢复时间另定；USB 电脑工具配网继续。"
   ],
   "sources": [
     "docs/PROGRESS-SCALE.md",
@@ -698,10 +698,10 @@
     },
     {
       "id": "AP",
-      "title": "独立首次配网 · AP→STA",
+      "title": "热点首次配网（暂缓） · AP→STA",
       "scope": "original",
       "phase": "usable",
-      "summary": "2026-11-16用户安排：热点配网新增开发和手机验收延期，主要用USB电脑工具。保留既有认领/事务/归档实现和历史失败，USB共享Wi-Fi事务继续；不把热点延期或历史USB隔离测试当当前设备端到端通过。原AP任务、分母/权重与未验收状态保留。",
+      "summary": "2026-11-18 用户再次确认暂缓热点首次配网开发和手机实机验收，恢复时间另定。USB 电脑工具配网及共享 Wi-Fi 事务继续推进。原动作、已完成记录、未验收项与计分保留。",
       "paths": [
         "crates/setup-ap",
         "crates/core/src/setup_ap_control",
@@ -6517,6 +6517,19 @@
         "https://github.com/Viper-Boss/RustSimHub/pull/267",
         "https://github.com/Viper-Boss/RustSimHub/pull/269",
         "https://github.com/Viper-Boss/RustSimHub/blob/de663743bd726e77f7c560139d0f91ea78e8fe57/docs/deliveries/LEAD-STATISTICS-CANDIDATES-20261116.md"
+      ]
+    },
+    {
+      "at": "2026-11-17T16:48:08.271581+00:00",
+      "type": "state",
+      "title": "热点首次配网暂缓",
+      "detail": "2026-11-18 用户再次确认暂缓热点首次配网开发和手机实机验收，恢复时间另定。USB 电脑工具配网及共享 Wi-Fi 事务继续推进。原动作、已完成记录、未验收项与计分保留。",
+      "task_ids": [
+        "AP-07",
+        "AP-08"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/pull/260"
       ]
     }
   ],

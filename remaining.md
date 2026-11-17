@@ -1,6 +1,6 @@
 # RustSimHub 完整剩余行动台账
 
-快照：2026-11-16T10:26:39.453559+00:00 · 基线：remaining-v1.1-2026-10-26-dependency
+快照：2026-11-17T16:48:08.271581+00:00 · 基线：remaining-v1.1-2026-10-26-dependency
 
 原P0–P7：**81.5%**，剩余 **18.5** 个验收点。新增X1/X2/X3/BLE独立保留，不混入旧分母。
 
@@ -321,11 +321,11 @@ python tools/progress/build.py --check
 - Claude离线接手：可以；仍须提供SHA与本地验证报告
 - 证据：[member-a-smtp-production-candidate.md](https://github.com/Viper-Boss/RustSimHub/blob/8f9cfeff1a4b5a804b8b138e890f7386caf5a006/docs/deliveries/member-a-smtp-production-candidate.md)
 
-## AP · 独立首次配网 · AP→STA
+## AP · 热点首次配网（暂缓） · AP→STA
 
 原计划收尾 · 12个动作 · 已完成4个
 
-2026-11-16用户安排：热点配网新增开发和手机验收延期，主要用USB电脑工具。保留既有认领/事务/归档实现和历史失败，USB共享Wi-Fi事务继续；不把热点延期或历史USB隔离测试当当前设备端到端通过。原AP任务、分母/权重与未验收状态保留。
+2026-11-18 用户再次确认暂缓热点首次配网开发和手机实机验收，恢复时间另定。USB 电脑工具配网及共享 Wi-Fi 事务继续推进。原动作、已完成记录、未验收项与计分保留。
 
 代码/资料：`crates/setup-ap`、`crates/core/src/setup_ap_control`、`crates/edge/src/web/ap-wifi.js`、`firmware/system`
 
