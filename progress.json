@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-17T16:58:07.419568+00:00",
+  "updated_at": "2026-11-17T18:40:30.868830+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6549,6 +6549,18 @@
       "type": "state",
       "title": "STAB-02 · BlueZ 段错误再次复现",
       "detail": "按北京时间 00:56:26 的日志回读，BlueZ 新增一次段错误，应用 89 启动以来已确认四次。AirSIM 蓝牙代理同步退出，随后恢复广播。Core、Edge、媒体仍无自动重启。",
+      "task_ids": [
+        "STAB-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-17T18:40:30.868830+00:00",
+      "type": "state",
+      "title": "STAB-02 · 审核并归档旧安装包与临时测试材料",
+      "detail": "应用 89 运行期间，校验归档后清理 10 份已另存的旧签名安装包副本和 9 份已结束的纯音测试临时材料。根分区普通可用空间从 30.0 增至 249.8 MiB，/run 从 3.9 增至 28.5 MiB。安装槽、业务数据分区、现行应用和服务均保持，长期稳定性待实测。",
       "task_ids": [
         "STAB-02"
       ],
