@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-18T12:34:51.891045+00:00",
+  "updated_at": "2026-11-18T14:12:00.349564+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6599,6 +6599,18 @@
       "detail": "转发记录支持清空、筛选后清空与单条删除，保留待处理及防重回执。通道和规则可复制。通信中心自动读取全部短信，通话记录可全选删除已结束条目。温度图可查看读数和采样，网页系统日志可删除、清空、设置容量。应用 94 签名安装与运行确认通过。",
       "task_ids": [
         "FWD-05"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-18T14:12:00.349564+00:00",
+      "type": "state",
+      "title": "SMS-02 · 修复快速切换导致通信中心列表空白",
+      "detail": "收件箱和验证码共用在途读取，切换到其他列表时只执行最新排队请求。对设备暂忙和临时连接失败做有限只读重试，明确拒绝仍清空。Firefox 延迟读取时连续切换 12 次，最终完整显示 72 条合成短信。应用 95 签名安装并确认。",
+      "task_ids": [
+        "SMS-02"
       ],
       "evidence": [
         "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
