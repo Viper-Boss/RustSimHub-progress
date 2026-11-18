@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-18T14:12:00.349564+00:00",
+  "updated_at": "2026-11-18T14:30:20.697643+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6611,6 +6611,18 @@
       "detail": "收件箱和验证码共用在途读取，切换到其他列表时只执行最新排队请求。对设备暂忙和临时连接失败做有限只读重试，明确拒绝仍清空。Firefox 延迟读取时连续切换 12 次，最终完整显示 72 条合成短信。应用 95 签名安装并确认。",
       "task_ids": [
         "SMS-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-18T14:30:20.697643+00:00",
+      "type": "state",
+      "title": "WEB-06 · 恢复蓝牙模式页状态读取与选择",
+      "detail": "进入蓝牙页自动读取模式，有效所有者会话可读取，暂忙有限重试。切换仍需近期所有者认证并显式确认。桌面、手机模拟流程通过，应用 96 签名安装确认，实机保留现有 AirSIM 模式。N1 配对另行实测。",
+      "task_ids": [
+        "WEB-06"
       ],
       "evidence": [
         "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
