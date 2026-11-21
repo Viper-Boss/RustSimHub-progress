@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-21T16:43:09.207892+00:00",
+  "updated_at": "2026-11-21T17:10:49.352483+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6773,6 +6773,20 @@
         "STAT-04"
       ],
       "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/commit/67bcb599ccc4087bc6c438f87d22215559c2c88c"
+      ]
+    },
+    {
+      "at": "2026-11-21T17:10:49.352483+00:00",
+      "type": "state",
+      "title": "应用 106 · 统计显示、DNS 与页面恢复装机",
+      "detail": "从共享目录核对应用 105 原始来源，合入统计界面、备用 DNS 与页面恢复修复，签名安装并确认应用 106。实机 HTTPS 查询、刷新保留、手机入口和服务回读通过；原短信、通话记录、所有者和 AirSIM 服务核对通过，105 保留。统计链上确认原型已验证原交易摘要、标准区块和确认深度。统计签到与远程连接分别实现；生产签到/续订尚未启用。",
+      "task_ids": [
+        "STAT-04",
+        "WEB-06"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/commit/3b9add23a8d44c6d38ce6ce67fd092be87d29bef",
         "https://github.com/Viper-Boss/RustSimHub/commit/67bcb599ccc4087bc6c438f87d22215559c2c88c"
       ]
     }
