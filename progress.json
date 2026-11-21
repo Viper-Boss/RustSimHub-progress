@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-21T16:32:38.073667+00:00",
+  "updated_at": "2026-11-21T16:43:09.207892+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6762,6 +6762,18 @@
       "evidence": [
         "https://github.com/Viper-Boss/RustSimHub/commit/4559302c3ab87c50bb1105d61ed569789bd8a8ca",
         "https://github.com/Viper-Boss/RustSimHub/pull/269"
+      ]
+    },
+    {
+      "at": "2026-11-21T16:43:09.207892+00:00",
+      "type": "state",
+      "title": "STAT-04 · 主 DNS 故障时恢复 NKN 只读统计",
+      "detail": "读取最多三个不同的已配置 IPv4 DNS，候选并行解析，查询仍走 Wi-Fi。75 项 Edge 测试、严格 Clippy 和锁定 ARM64 构建通过。ARM 棒子隔离对照中阻断国内节点与首选 DNS，应用 105 原版返回 503，修复版经备用 DNS 和官方 HTTPS 返回三项有效统计。正式服务、选中应用与设备 DNS 保持原状态，临时服务及材料清理完毕。修复未正式安装，签到待生产集成。",
+      "task_ids": [
+        "STAT-04"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/commit/67bcb599ccc4087bc6c438f87d22215559c2c88c"
       ]
     }
   ],
