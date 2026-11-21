@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-21T11:38:27.815535+00:00",
+  "updated_at": "2026-11-21T12:00:49.454697+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6669,6 +6669,20 @@
       "detail": "应用 99 已签名安装并确认。SIM 页显示默认关闭的国际数据漫游开关，自动同步设备状态。开启仍需两次确认，状态栏可从临时繁忙恢复并在手机显示。桌面和手机模拟流程通过。实机回读新版资源、原短信和通话记录，并保留应用 97 的 NKN 统计。设备没有普通蜂窝数据配置，本轮未实际启用漫游或测试蜂窝流量。",
       "task_ids": [
         "WEB-06"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-21T12:00:49.454697+00:00",
+      "type": "state",
+      "title": "应用 100 · 24 小时登录与短信接收、NKN 统计检查",
+      "detail": "应用 100 已签名安装并确认。普通会话为 24 小时，敏感操作近期验证保持。通过 Core IPC 签名登录和续期、网页模拟时钟与 ARM64 构建，实机回读资源和业务数据。通过 Wi-Fi 的 NKN 查询返回 24 小时、30 天、90 天的计数均为 0，设备尚无统计上报。短信历史全为已清空回收站的去重记录。经授权发出一条运营商查询短信，基带标记已发送，观测期间无运营商回执，收件原因仍待定位。",
+      "task_ids": [
+        "WEB-06",
+        "STAT-04",
+        "SMS-04"
       ],
       "evidence": [
         "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
