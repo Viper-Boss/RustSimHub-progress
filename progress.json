@@ -149,7 +149,7 @@
     "短信发送授权已消费，新增真实发送需另获号码、内容和次数。",
     "真人听音、拔插、第二设备及BLE单独授权按对应任务通知。",
     "关机/PMIC/SMD继续搁置；手机原生App不在首版范围。",
-    "2026-11-16用户决定：热点配网专用开发/手机验收暂缓，主要用USB电脑工具；保留原缺口/失败/权重，USB当前实机状态不冒称通过。"
+    "2026-11-18 用户确认：热点首次配网开发及手机实机验收暂缓，恢复时间另定；USB 电脑工具配网继续。"
   ],
   "sources": [
     "docs/PROGRESS-SCALE.md",
@@ -698,10 +698,10 @@
     },
     {
       "id": "AP",
-      "title": "独立首次配网 · AP→STA",
+      "title": "热点首次配网（暂缓） · AP→STA",
       "scope": "original",
       "phase": "usable",
-      "summary": "2026-11-16用户安排：热点配网新增开发和手机验收延期，主要用USB电脑工具。保留既有认领/事务/归档实现和历史失败，USB共享Wi-Fi事务继续；不把热点延期或历史USB隔离测试当当前设备端到端通过。原AP任务、分母/权重与未验收状态保留。",
+      "summary": "2026-11-18 用户再次确认暂缓热点首次配网开发和手机实机验收，恢复时间另定。USB 电脑工具配网及共享 Wi-Fi 事务继续推进。原动作、已完成记录、未验收项与计分保留。",
       "paths": [
         "crates/setup-ap",
         "crates/core/src/setup_ap_control",
@@ -6517,6 +6517,115 @@
         "https://github.com/Viper-Boss/RustSimHub/pull/267",
         "https://github.com/Viper-Boss/RustSimHub/pull/269",
         "https://github.com/Viper-Boss/RustSimHub/blob/de663743bd726e77f7c560139d0f91ea78e8fe57/docs/deliveries/LEAD-STATISTICS-CANDIDATES-20261116.md"
+      ]
+    },
+    {
+      "at": "2026-11-17T16:48:08.271581+00:00",
+      "type": "state",
+      "title": "热点首次配网暂缓",
+      "detail": "2026-11-18 用户再次确认暂缓热点首次配网开发和手机实机验收，恢复时间另定。USB 电脑工具配网及共享 Wi-Fi 事务继续推进。原动作、已完成记录、未验收项与计分保留。",
+      "task_ids": [
+        "AP-07",
+        "AP-08"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/pull/260"
+      ]
+    },
+    {
+      "at": "2026-11-17T16:55:50.300888+00:00",
+      "type": "state",
+      "title": "STAB-02 · 应用 89 实机资源短测",
+      "detail": "只读采样 64 秒共 5 次，Core、Edge、媒体无自动重启，HTTPS 资源返回 200，最高传感器温度 45–46 ℃。根分区可用 30.0 MiB，/run 可用 3.9 MiB；旧应用槽和维护材料分别占约 1.0 GiB、1.16 GiB。BlueZ 在应用 89 启动后曾三次异常退出并恢复，观察窗口内计数未增加。长期稳定性待验证。",
+      "task_ids": [
+        "STAB-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-17T16:58:07.419568+00:00",
+      "type": "state",
+      "title": "STAB-02 · BlueZ 段错误再次复现",
+      "detail": "按北京时间 00:56:26 的日志回读，BlueZ 新增一次段错误，应用 89 启动以来已确认四次。AirSIM 蓝牙代理同步退出，随后恢复广播。Core、Edge、媒体仍无自动重启。",
+      "task_ids": [
+        "STAB-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-17T18:40:30.868830+00:00",
+      "type": "state",
+      "title": "STAB-02 · 审核并归档旧安装包与临时测试材料",
+      "detail": "应用 89 运行期间，校验归档后清理 10 份已另存的旧签名安装包副本和 9 份已结束的纯音测试临时材料。根分区普通可用空间从 30.0 增至 249.8 MiB，/run 从 3.9 增至 28.5 MiB。安装槽、业务数据分区、现行应用和服务均保持，长期稳定性待实测。",
+      "task_ids": [
+        "STAB-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-18T10:55:37.104905+00:00",
+      "type": "state",
+      "title": "FWD-05 · 应用 91 短信转发控制台上线",
+      "detail": "设备通过签名更新确认应用 91，HTTPS 静态资源与候选一致。转发有独立入口，桌面和手机布局已验证。隔离环境使用合成短信完成本地 HTTPS 投递，转发及相关测试 125 项、Core 转发 IPC 测试 12 项通过。实机复核转发处于关闭状态，工作进程数为零，真实接收端递送仍待验证。",
+      "task_ids": [
+        "FWD-05"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-18T11:59:57.226042+00:00",
+      "type": "state",
+      "title": "FWD-05 · 短信转发按原版流程重做并上线",
+      "detail": "应用 92 签名部署确认。默认转发记录，发送通道与规则单独保存。通道可在总开关关闭时单独发送合成测试。日志从最新记录开始分页，并支持状态筛选。Firefox 桌面及两种手机宽度的合成流程验证通过。设备保持转发关闭，真实接收端投递仍待验证。",
+      "task_ids": [
+        "FWD-05"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-18T12:34:51.891045+00:00",
+      "type": "state",
+      "title": "FWD-05 · 应用 94 补齐记录管理与硬件读数",
+      "detail": "转发记录支持清空、筛选后清空与单条删除，保留待处理及防重回执。通道和规则可复制。通信中心自动读取全部短信，通话记录可全选删除已结束条目。温度图可查看读数和采样，网页系统日志可删除、清空、设置容量。应用 94 签名安装与运行确认通过。",
+      "task_ids": [
+        "FWD-05"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-18T14:12:00.349564+00:00",
+      "type": "state",
+      "title": "SMS-02 · 修复快速切换导致通信中心列表空白",
+      "detail": "收件箱和验证码共用在途读取，切换到其他列表时只执行最新排队请求。对设备暂忙和临时连接失败做有限只读重试，明确拒绝仍清空。Firefox 延迟读取时连续切换 12 次，最终完整显示 72 条合成短信。应用 95 签名安装并确认。",
+      "task_ids": [
+        "SMS-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-18T14:30:20.697643+00:00",
+      "type": "state",
+      "title": "WEB-06 · 恢复蓝牙模式页状态读取与选择",
+      "detail": "进入蓝牙页自动读取模式，有效所有者会话可读取，暂忙有限重试。切换仍需近期所有者认证并显式确认。桌面、手机模拟流程通过，应用 96 签名安装确认，实机保留现有 AirSIM 模式。N1 配对另行实测。",
+      "task_ids": [
+        "WEB-06"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
       ]
     },
     {
