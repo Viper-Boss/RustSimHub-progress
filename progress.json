@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-21T12:21:44.375640+00:00",
+  "updated_at": "2026-11-21T12:30:05.335649+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6723,6 +6723,19 @@
       ],
       "evidence": [
         "https://github.com/Viper-Boss/RustSimHub/commit/076c0727d6e60bb5c47e821cfe339602aa154077",
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-21T12:30:05.335649+00:00",
+      "type": "state",
+      "title": "应用 102 · 保留当前标签页的登录会话",
+      "detail": "应用 102 已签名安装并确认。浏览器刷新后经 Core 核对恢复原会话，保持原有效期及近期所有者验证。Firefox 复现应用 101 刷新掉登录，修复版验证刷新、临时繁忙、过期、撤权与退出。Core 认证 IPC 12 项与 ARM64 构建通过，实机回读网页与原业务数据。SIM 采样定时服务继续工作，原件清理待批准。",
+      "task_ids": [
+        "WEB-06"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/commit/fc75f0bf20f0d3bf618d24675133ef11719d70c7",
         "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
       ]
     }
