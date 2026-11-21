@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-21T11:12:10.391034+00:00",
+  "updated_at": "2026-11-21T11:38:27.815535+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6661,6 +6661,18 @@
         "STAT-03"
       ],
       "evidence": []
+    },
+    {
+      "at": "2026-11-21T11:38:27.815535+00:00",
+      "type": "state",
+      "title": "WEB-06 · 国际数据漫游开关和设备在线状态",
+      "detail": "应用 99 已签名安装并确认。SIM 页显示默认关闭的国际数据漫游开关，自动同步设备状态。开启仍需两次确认，状态栏可从临时繁忙恢复并在手机显示。桌面和手机模拟流程通过。实机回读新版资源、原短信和通话记录，并保留应用 97 的 NKN 统计。设备没有普通蜂窝数据配置，本轮未实际启用漫游或测试蜂窝流量。",
+      "task_ids": [
+        "WEB-06"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
     }
   ],
   "team": {
