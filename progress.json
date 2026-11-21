@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-21T12:06:57.968296+00:00",
+  "updated_at": "2026-11-21T12:15:20.546306+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6697,6 +6697,19 @@
         "SMS-04"
       ],
       "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-21T12:15:20.546306+00:00",
+      "type": "state",
+      "title": "SMS-04 · 增加 SIM 短信容量和满卡提示",
+      "detail": "开发版新增只读 SIM 容量采样，公开给已授权网页的字段只有已用和总槽位。通信中心桌面和手机显示满卡及余量偏低提醒，SIM 页面显示容量，换卡、陈旧或未知读数不会被当成当前容量。网络代理 31 项测试、严格 Clippy、桌面和手机 Firefox 回归、ARM64 构建及真机隔离采样通过，实机读数 50/50。生产设备运行应用 100，候选尚未安装，真实收件待释放 SIM 空间后验证。",
+      "task_ids": [
+        "SMS-04"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/commit/076c0727d6e60bb5c47e821cfe339602aa154077",
         "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
       ]
     }
