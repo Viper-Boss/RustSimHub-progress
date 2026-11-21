@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-21T12:00:49.454697+00:00",
+  "updated_at": "2026-11-21T12:06:57.968296+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6682,6 +6682,18 @@
       "task_ids": [
         "WEB-06",
         "STAT-04",
+        "SMS-04"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-21T12:06:57.968296+00:00",
+      "type": "state",
+      "title": "SMS-04 · 实机定位 SIM 短信存储满",
+      "detail": "应用 100 上经只读测量确认 SIM 的 50 个短信槽位全部占用，越界负对照按预期被拒绝。将当前线路与本机永久清空记录逐条比较，34 条旧 SIM 收件的对象和内容摘要均一致。网页回收站清空后，SIM 原件仍需独立清理。等待所有者批准清理，之后验证可用容量和真实接收。",
+      "task_ids": [
         "SMS-04"
       ],
       "evidence": [
