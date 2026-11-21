@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-21T17:10:49.352483+00:00",
+  "updated_at": "2026-11-21T17:31:01.276454+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6789,6 +6789,27 @@
         "https://github.com/Viper-Boss/RustSimHub/commit/3b9add23a8d44c6d38ce6ce67fd092be87d29bef",
         "https://github.com/Viper-Boss/RustSimHub/commit/67bcb599ccc4087bc6c438f87d22215559c2c88c"
       ]
+    },
+    {
+      "at": "2026-11-21T17:29:55.409008+00:00",
+      "type": "state",
+      "title": "WEB-06 · NKN 统计完成第一次链上签到",
+      "detail": "ARM64 真机上的独立统计服务通过 Wi-Fi 完成三窗口零手续费订阅。正式控制台回读 24 小时、30 天和 90 天均为 1。",
+      "task_ids": [
+        "WEB-06"
+      ],
+      "evidence": []
+    },
+    {
+      "at": "2026-11-21T17:31:01.276454+00:00",
+      "type": "state",
+      "title": "WEB-03 / WEB-06 · 应用 107 已安装并确认",
+      "detail": "仪表盘设备信息和规格在窗口变窄时自动换行。新增所有者进程页，按 PID、名称和用途备注搜索。Firefox 验证 8 个桌面宽度和手机端入口；设备试运行后核对 HTTPS 页面及业务资料，保留前一版。",
+      "task_ids": [
+        "WEB-03",
+        "WEB-06"
+      ],
+      "evidence": []
     }
   ],
   "team": {
@@ -11935,10 +11956,10 @@
   },
   "nkn_usage": {
     "counts": {
-      "24h": 0,
-      "30d": 0,
-      "90d": 0
+      "24h": 1,
+      "30d": 1,
+      "90d": 1
     },
-    "observed_at": "2026-11-21T09:28:23.167078+00:00"
+    "observed_at": "2026-11-21T17:27:32.112734+00:00"
   }
 }
