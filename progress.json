@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-21T12:30:05.335649+00:00",
+  "updated_at": "2026-11-21T12:35:35.930136+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -6737,6 +6737,18 @@
       "evidence": [
         "https://github.com/Viper-Boss/RustSimHub/commit/fc75f0bf20f0d3bf618d24675133ef11719d70c7",
         "https://github.com/Viper-Boss/RustSimHub-progress/blob/main/remaining.md"
+      ]
+    },
+    {
+      "at": "2026-11-21T12:35:35.930136+00:00",
+      "type": "state",
+      "title": "SMS-04 · 清理已删除的 SIM 原件并验证真实收件",
+      "detail": "应用 102 上按所有者授权清理回收站已彻底清空、且同一线路与内容摘要匹配的旧 SIM 原件。基带回读确认移除，重新采样确认释放槽位。发送一次只读运营商查询，核对新回信的基带对象与网页收件箱可见记录一致，随后再次采样确认仍有足够余量。本次覆盖满卡后的真实恢复，未覆盖 ModemManager 重连或信号丢失，验收权重保持。",
+      "task_ids": [
+        "SMS-04"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/commit/076c0727d6e60bb5c47e821cfe339602aa154077"
       ]
     }
   ],
