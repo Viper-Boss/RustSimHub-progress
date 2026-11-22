@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-22T14:04:54.039170+00:00",
+  "updated_at": "2026-11-22T14:34:17.184388+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -69,8 +69,8 @@
   "focus": {
     "task_id": "UPD-02",
     "title": "签名维护材料与固定写入表",
-    "state": "下一动作已选定；按前置和验收推进",
-    "description": "应用 113 已安装并通过健康检查，短信转发复用主界面登录。旧应用可回退。正在开发签名应用包上传与受限安装。"
+    "state": "正在推进",
+    "description": "签名应用包已可在网页明确提交，断线后可查询受理回执。维护命令已接入原受限暂存。继续实现自动备份、试运行、健康确认和回退。"
   },
   "facts": [
     {
@@ -1951,7 +1951,7 @@
           "dependencies": [
             "UPD-01"
           ],
-          "status": "todo",
+          "status": "in_progress",
           "offline_delegable": true,
           "passive_wait_hours": 0,
           "evidence": [],
@@ -6852,6 +6852,30 @@
       ],
       "evidence": [
         "https://github.com/Viper-Boss/RustSimHub/commit/061647f7589d77b81f74b39f00c3f5630541a377"
+      ]
+    },
+    {
+      "at": "2026-11-22T14:34:17.062271+00:00",
+      "type": "state",
+      "title": "UPD-02 · 状态更新：签名维护材料与固定写入表",
+      "detail": "签名应用包已可在网页明确提交，断线后可查询受理回执。维护命令已接入原受限暂存。继续实现自动备份、试运行、健康确认和回退。",
+      "task_ids": [
+        "UPD-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/commit/235ed7308402edc6a99243d08000a0f9d7b71dfe"
+      ]
+    },
+    {
+      "at": "2026-11-22T14:34:17.184388+00:00",
+      "type": "state",
+      "title": "UPD-02 · 下一关卡：签名维护材料与固定写入表",
+      "detail": "签名应用包已可在网页明确提交，断线后可查询受理回执。维护命令已接入原受限暂存。继续实现自动备份、试运行、健康确认和回退。",
+      "task_ids": [
+        "UPD-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/commit/235ed7308402edc6a99243d08000a0f9d7b71dfe"
       ]
     }
   ],
