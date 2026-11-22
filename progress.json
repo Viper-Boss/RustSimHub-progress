@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-22T01:33:04.454794+00:00",
+  "updated_at": "2026-11-22T14:04:54.039170+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -67,10 +67,10 @@
     "method": "每动作最少/最多有效工时相加；台账加权率按冻结的工时中值计算，完成才计入。原固件81.5%按固定P0–P7里程碑，不与新增范围混算。"
   },
   "focus": {
-    "task_id": "STAT-03",
-    "title": "链上订阅与确认实现",
+    "task_id": "UPD-02",
+    "title": "签名维护材料与固定写入表",
     "state": "下一动作已选定；按前置和验收推进",
-    "description": "263～266正常合并，267经负责人269三方集成保留作者且产品无改；原267已实际MERGED。网络原ID持久回执、固定用途签名、有限Root/SDK/Core观察候选完成主线复验：Core lib122/bin237、统计92、Edge71，SDK双模式各55顶层race/vet与真实Chrome/IDB三宽通过。SDK/Root Go ARM已构建；Core ARM缺目标标准库失败。完整transport草稿268、链确认/长期权限尚缺，生产上报仍关闭；未部署，热点暂缓/USB优先。"
+    "description": "应用 113 已安装并通过健康检查，短信转发复用主界面登录。旧应用可回退。正在开发签名应用包上传与受限安装。"
   },
   "facts": [
     {
@@ -6841,6 +6841,18 @@
         "STAB-02"
       ],
       "evidence": []
+    },
+    {
+      "at": "2026-11-22T14:04:54.039170+00:00",
+      "type": "state",
+      "title": "UPD-02 · 下一关卡：签名维护材料与固定写入表",
+      "detail": "应用 113 已安装并通过健康检查，短信转发复用主界面登录。旧应用可回退。正在开发签名应用包上传与受限安装。",
+      "task_ids": [
+        "UPD-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/commit/061647f7589d77b81f74b39f00c3f5630541a377"
+      ]
     }
   ],
   "team": {
