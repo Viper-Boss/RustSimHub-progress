@@ -3,21 +3,21 @@
   "source_head": "d86ce0de2018dafbabad3bc33e0b12f057ba02f4",
   "source_pr": "https://github.com/Viper-Boss/RustSimHub/tree/codex/web-product-delegation-20261103",
   "statistics_head": "de663743bd726e77f7c560139d0f91ea78e8fe57",
-  "snapshot_updated_at": "2026-11-23T06:34:58.919480+00:00",
-  "exported_at": "2026-11-23T06:34:58.919480+00:00",
+  "snapshot_updated_at": "2026-11-23T11:07:56.337682+00:00",
+  "exported_at": "2026-11-23T11:07:56.337682+00:00",
   "files": {
     ".gitattributes": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
     "README.md": "9c49efc430f1fde041e66a321190b8e2e99ef1b1e0a22f90d295681e9f83e582",
     "build.py": "08eaaee07d882d16ddb7a3470dfcdba857dc71e076d1f6692901c7d0e966819e",
-    "index.html": "948b36adfe2f8803ecb7c53c200e3c9aa09a37527a088c03f74a5acb448377e5",
-    "progress.json": "17bfeca897c70deb0a4615c67d2a610ea0bcdaf183edf5a11bbfd2facb5809ef",
-    "remaining.md": "6f1bb6a86354e0dc9558ff93cd7616d28be4a6836231ec68f828ec586898885d",
+    "index.html": "886a3e72e284512fac62f532ca19291a4e8f56708a5274c477c15961973b7490",
+    "progress.json": "b5c49b84e4875c47ecc937776e7aeff9719a318643a8904d80218bf955507d05",
+    "remaining.md": "62968e8a6eafaf77c6d61b313a5c27fedbe84b08408bc982000727b031a6dcbe",
     "src/dashboard.css": "4745494f51843bf9648e4ae156c9685f6f190b57e2588ad4b6b63cdd1ed83132",
     "src/dashboard.mjs": "0cffe25fec2ecf483e1f783fb4122f33014a91a3cfa9d71b15cc5f0e99057528",
     "src/index.template.html": "6e4ecbf4a83997e8f078f34f60595932b7e50fcb379985f59d63a68fca1974cd",
     "src/team.css": "aa2d8cede28e48a366eb977dc508c8fbc2f215d8b924b820115387cee7861b8a"
   },
-  "latest_evidence": "https://github.com/Viper-Boss/RustSimHub/commit/98ba2e8cb5618b37053df26d9334f71c58d84e13"
+  "latest_evidence": "https://github.com/Viper-Boss/RustSimHub/commit/0b3701086037768732687194631517ef7d732312"
 }
