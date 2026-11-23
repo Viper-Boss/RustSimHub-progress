@@ -3,21 +3,21 @@
   "source_head": "d86ce0de2018dafbabad3bc33e0b12f057ba02f4",
   "source_pr": "https://github.com/Viper-Boss/RustSimHub/tree/codex/web-product-delegation-20261103",
   "statistics_head": "de663743bd726e77f7c560139d0f91ea78e8fe57",
-  "snapshot_updated_at": "2026-11-22T14:57:31.852783+00:00",
-  "exported_at": "2026-11-22T14:57:31.852783+00:00",
+  "snapshot_updated_at": "2026-11-23T05:25:55.419470+00:00",
+  "exported_at": "2026-11-23T05:25:55.419470+00:00",
   "files": {
     ".gitattributes": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
     "README.md": "9c49efc430f1fde041e66a321190b8e2e99ef1b1e0a22f90d295681e9f83e582",
     "build.py": "08eaaee07d882d16ddb7a3470dfcdba857dc71e076d1f6692901c7d0e966819e",
-    "index.html": "55ea576d71cdc57da2cfc04e11ad488eccae025649498319bd7254f3ddd360d7",
-    "progress.json": "105bf1b389ca8eef807ead984f6d8d8b625a64a4f6240757ab1a06c31f5dce58",
-    "remaining.md": "1900e4b539409b8d05c4a294abfdb1ec6ed0e0e99511c780bfa15e8762c58969",
+    "index.html": "ee592818bee2268480365211c61e56125fc37f9e42b10f84625b2eb32974beba",
+    "progress.json": "0d7bfcc09781ac3043087f8fdac668fc39e05a5a395801838ff0418496833ac4",
+    "remaining.md": "79394b8061b63b7dc7c6c303e7473d5d9db3177007ce1d2474078be8a5570a20",
     "src/dashboard.css": "4745494f51843bf9648e4ae156c9685f6f190b57e2588ad4b6b63cdd1ed83132",
     "src/dashboard.mjs": "0cffe25fec2ecf483e1f783fb4122f33014a91a3cfa9d71b15cc5f0e99057528",
     "src/index.template.html": "6e4ecbf4a83997e8f078f34f60595932b7e50fcb379985f59d63a68fca1974cd",
     "src/team.css": "aa2d8cede28e48a366eb977dc508c8fbc2f215d8b924b820115387cee7861b8a"
   },
-  "latest_evidence": "https://github.com/Viper-Boss/RustSimHub/commit/3b8dfdc2bc19561b1a2d75be1f7e7a1020fac657"
+  "latest_evidence": "https://github.com/Viper-Boss/RustSimHub/commit/c504c7355f7c591d5a9b8b42ea62185fe68a6a62"
 }
