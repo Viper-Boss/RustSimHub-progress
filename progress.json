@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-23T05:33:28.126103+00:00",
+  "updated_at": "2026-11-23T05:41:37.225270+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -70,7 +70,7 @@
     "task_id": "UPD-02",
     "title": "签名维护材料与固定写入表",
     "state": "正在推进",
-    "description": "网页更新维护端已接入绑定原请求的候选撤销，保留原应用、防降级记录和数据库。自动停写、试启动、健康确认和网页反馈仍待接入。"
+    "description": "网页更新新增维护端试启动流程，先核对签名和通话，失败时尝试恢复原版。后台唤起、健康确认和网页回执仍待接通，本轮仅在本机验证。"
   },
   "facts": [
     {
@@ -6924,6 +6924,18 @@
       ],
       "evidence": [
         "https://github.com/Viper-Boss/RustSimHub/commit/3457cbcdbf7c514c905608025a8368fba308f546"
+      ]
+    },
+    {
+      "at": "2026-11-23T05:41:37.225270+00:00",
+      "type": "state",
+      "title": "UPD-02 · 下一关卡：签名维护材料与固定写入表",
+      "detail": "网页更新新增维护端试启动流程，先核对签名和通话，失败时尝试恢复原版。后台唤起、健康确认和网页回执仍待接通，本轮仅在本机验证。",
+      "task_ids": [
+        "UPD-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/commit/bfad891901e67df40f5f84c00635ba95543de791"
       ]
     }
   ],
