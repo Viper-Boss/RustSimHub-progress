@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline_version": "remaining-v1.1-2026-10-26-dependency",
-  "updated_at": "2026-11-23T11:07:56.176226+00:00",
+  "updated_at": "2026-11-23T11:48:57.213896+00:00",
   "baseline_at": "2026-10-25T13:30:20.247568+00:00",
   "project": {
     "name": "RustSimHub",
@@ -70,7 +70,7 @@
     "task_id": "UPD-02",
     "title": "签名维护材料与固定写入表",
     "state": "正在推进",
-    "description": "入口版 115 已安装。网页上传问题已在本机 Chrome 修复并验证，含登录页活动统计自动读取。网页更新仍待真机验收。"
+    "description": "真机已验证 118 受理和回退，当前设备确认 117。两份备用、顺序回退及网页删除通过本机回归，待实机部署。"
   },
   "facts": [
     {
@@ -6996,6 +6996,18 @@
       ],
       "evidence": [
         "https://github.com/Viper-Boss/RustSimHub/commit/0b3701086037768732687194631517ef7d732312"
+      ]
+    },
+    {
+      "at": "2026-11-23T11:48:57.213896+00:00",
+      "type": "state",
+      "title": "UPD-02 · 下一关卡：签名维护材料与固定写入表",
+      "detail": "真机已验证 118 受理和回退，当前设备确认 117。两份备用、顺序回退及网页删除通过本机回归，待实机部署。",
+      "task_ids": [
+        "UPD-02"
+      ],
+      "evidence": [
+        "https://github.com/Viper-Boss/RustSimHub/commit/54d2014615be6c896b21fd28c3e91ad3181b9f0b"
       ]
     }
   ],
